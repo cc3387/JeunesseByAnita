@@ -12,25 +12,25 @@ import Batch
 class ProductPage:UIViewController{
     
     @IBAction func MoneND(_ sender: AnyObject) {
-        if let url = NSURL(string: "https://www.jeunesseglobal.com/zh-US/m1nd") {
+        if let url = NSURL(string: "https://simplyeffective.jeunesseglobal.com/zh-US/m1nd") {
             UIApplication.shared.openURL(url as URL)
         }
     }
     
     @IBAction func ZEN(_ sender: AnyObject) {
-        if let url = NSURL(string: "https://www.jeunesseglobal.com/zh-US/zen/project") {
+        if let url = NSURL(string: "https://simplyeffective.jeunesseglobal.com/zh-US/zen/project") {
             UIApplication.shared.openURL(url as URL)
         }
     }
     
     @IBAction func FINITI(_ sender: AnyObject) {
-        if let url = NSURL(string: "https://www.jeunesseglobal.com/zh-US/finiti") {
+        if let url = NSURL(string: "https://simplyeffective.jeunesseglobal.com/zh-US/finiti") {
             UIApplication.shared.openURL(url as URL)
         }
     }
     
     @IBAction func Reserve(_ sender: AnyObject) {
-        if let url = NSURL(string: "https://www.jeunesseglobal.com/zh-US/reserve") {
+        if let url = NSURL(string: "https://simplyeffective.jeunesseglobal.com/zh-US/reserve") {
             UIApplication.shared.openURL(url as URL)
         }
     }

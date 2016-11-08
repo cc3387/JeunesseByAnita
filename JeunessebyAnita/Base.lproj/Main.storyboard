@@ -1371,7 +1371,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.33525080889999997" green="0.71171991950000002" blue="0.92146803119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="加入團隊">
+                                <state key="normal" title="开始浏览">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -1683,14 +1683,14 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="已是版主？" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G7v-Ce-ggY">
-                                <frame key="frameInset" minX="16" minY="299" width="112" height="21"/>
+                                <frame key="frameInset" minX="16" minY="374" width="112" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Gj-qo-8C0">
-                                <frame key="frameInset" minX="13" minY="328" width="155" height="30"/>
+                                <frame key="frameInset" minX="13" minY="403" width="155" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="21"/>
                                 <state key="normal" title="到版主登入頁面">
@@ -1701,14 +1701,14 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="加入成为版主？" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dmz-9N-B1q">
-                                <frame key="frameInset" minX="16" minY="395" width="152" height="21"/>
+                                <frame key="frameInset" minX="16" minY="470" width="152" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xdi-SO-Njp">
-                                <frame key="frameInset" minX="13" minY="428" width="112" height="30"/>
+                                <frame key="frameInset" minX="13" minY="503" width="112" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="21"/>
                                 <state key="normal" title="到註冊頁面">
@@ -1719,16 +1719,16 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="请输入正确电邮" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RvC-1A-0I7">
-                                <frame key="frameInset" minX="136" minY="232" width="144" height="21"/>
+                                <frame key="frameInset" minX="136" minY="236" width="144" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wTi-Sd-bb4">
-                                <frame key="frameInset" minX="9" minY="502" width="216" height="30"/>
+                                <frame key="frameInset" minX="9" minY="314" width="216" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="22"/>
                                 <state key="normal" title="立刻加入Anita的团队">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -1747,13 +1747,6 @@
                                     <segue destination="Anw-sk-lCb" kind="show" id="oPY-Pw-n7G"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="如没有介绍人，輸入luianita@yahoo.com " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gcb-oa-sqn">
-                                <frame key="frameInset" minX="16" minY="258" width="337" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3zE-cM-ERV">
                                 <frame key="frameInset" minX="136" minY="198" width="93" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1765,6 +1758,13 @@
                                     <action selector="ReferralLogin:" destination="4JD-8g-k39" eventType="touchUpInside" id="6lC-5I-XeN"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="如没有介绍人，輸入luianita@yahoo.com " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gcb-oa-sqn">
+                                <frame key="frameInset" minX="17" minY="268" width="337" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -1834,8 +1834,8 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="RQe-6a-RH3" kind="relationship" relationship="viewControllers" id="78Q-OL-Xks"/>
                         <segue destination="WYN-7y-KGj" kind="relationship" relationship="viewControllers" id="ZbE-xe-qRg"/>
+                        <segue destination="RQe-6a-RH3" kind="relationship" relationship="viewControllers" id="78Q-OL-Xks"/>
                         <segue destination="h4J-aA-qBt" kind="relationship" relationship="viewControllers" id="zGI-pk-crc"/>
                         <segue destination="zuj-69-fZC" kind="relationship" relationship="viewControllers" id="MMg-Nj-XS3"/>
                     </connections>
@@ -2281,12 +2281,12 @@
         <image name="touring_icon.png" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="EhG-zY-mZB"/>
-        <segue reference="wNr-PB-OSi"/>
+        <segue reference="V1D-zN-6vt"/>
+        <segue reference="lHv-oH-TZo"/>
         <segue reference="Pvc-Zk-1IY"/>
+        <segue reference="kAG-5w-Pi5"/>
         <segue reference="Bjy-85-zul"/>
-        <segue reference="GTU-2D-qdT"/>
+        <segue reference="oPY-Pw-n7G"/>
         <segue reference="cfd-MX-JHo"/>
-        <segue reference="90o-Lu-juA"/>
     </inferredMetricsTieBreakers>
 </document>
