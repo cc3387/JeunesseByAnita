@@ -22,6 +22,9 @@
 		AA2BD6CE1DBBA95800E8ED97 /* EditorForeword.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2BD6CD1DBBA95800E8ED97 /* EditorForeword.swift */; };
 		AA2BD6D01DBC478900E8ED97 /* CommunicationUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2BD6CF1DBC478900E8ED97 /* CommunicationUp.swift */; };
 		AA2BD6D21DBC4CB000E8ED97 /* CommunicationDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2BD6D11DBC4CB000E8ED97 /* CommunicationDown.swift */; };
+		AA304F9E1DD19030003B7A9B /* Newspaper-2-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA304F9D1DD19030003B7A9B /* Newspaper-2-icon.png */; };
+		AA304FA01DD19190003B7A9B /* alert.png in Resources */ = {isa = PBXBuildFile; fileRef = AA304F9F1DD19190003B7A9B /* alert.png */; };
+		AA304FA21DD19444003B7A9B /* running_man-512.png in Resources */ = {isa = PBXBuildFile; fileRef = AA304FA11DD19444003B7A9B /* running_man-512.png */; };
 		AA3054E31DB8765900EE4DE9 /* SendEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3054E21DB8765900EE4DE9 /* SendEmail.swift */; };
 		AA400AEB1DAB2E8800B9E2C7 /* EditorRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA400AEA1DAB2E8800B9E2C7 /* EditorRegister.swift */; };
 		AA400AED1DAB596E00B9E2C7 /* BatchClientPush.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA400AEC1DAB596E00B9E2C7 /* BatchClientPush.swift */; };
@@ -127,6 +130,9 @@
 		AA2BD6CD1DBBA95800E8ED97 /* EditorForeword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorForeword.swift; sourceTree = "<group>"; };
 		AA2BD6CF1DBC478900E8ED97 /* CommunicationUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunicationUp.swift; sourceTree = "<group>"; };
 		AA2BD6D11DBC4CB000E8ED97 /* CommunicationDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunicationDown.swift; sourceTree = "<group>"; };
+		AA304F9D1DD19030003B7A9B /* Newspaper-2-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Newspaper-2-icon.png"; sourceTree = "<group>"; };
+		AA304F9F1DD19190003B7A9B /* alert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alert.png; sourceTree = "<group>"; };
+		AA304FA11DD19444003B7A9B /* running_man-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "running_man-512.png"; sourceTree = "<group>"; };
 		AA3054E11DB8580300EE4DE9 /* JeunessebyAnita-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JeunessebyAnita-Bridging-Header.h"; sourceTree = "<group>"; };
 		AA3054E21DB8765900EE4DE9 /* SendEmail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendEmail.swift; sourceTree = "<group>"; };
 		AA400AEA1DAB2E8800B9E2C7 /* EditorRegister.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorRegister.swift; sourceTree = "<group>"; };
@@ -350,6 +356,9 @@
 				AAF345A31DA3D09200C28DF6 /* LaunchScreen.storyboard */,
 				AAF345A61DA3D09200C28DF6 /* Info.plist */,
 				AA7827901DA921D900F23C7B /* GoogleService-Info.plist */,
+				AA304FA11DD19444003B7A9B /* running_man-512.png */,
+				AA304F9F1DD19190003B7A9B /* alert.png */,
+				AA304F9D1DD19030003B7A9B /* Newspaper-2-icon.png */,
 				AA2999AE1DCFF3D7009BE499 /* m1ndPackage_en-US_4445.png */,
 				AA2999AC1DCFF240009BE499 /* productsImage1_en-US.png */,
 				AA2999A61DCFE7C0009BE499 /* AMPMEssentialsFamily_en-US.png */,
@@ -546,10 +555,13 @@
 				AAAA00111DCECCE90076AA82 /* cloud-horizon.jpg in Resources */,
 				AA7827CF1DAAFD3200F23C7B /* JeunesseRanking.jpg in Resources */,
 				AAAA001D1DCF00260076AA82 /* jeunesse_reserve.jpg in Resources */,
+				AA304FA01DD19190003B7A9B /* alert.png in Resources */,
 				AAF345D51DA554D000C28DF6 /* leader_icon.png in Resources */,
 				AAAA00091DCEA6160076AA82 /* Jeunesse_1024.jpg in Resources */,
 				AAF345A21DA3D09200C28DF6 /* Assets.xcassets in Resources */,
 				AA7827C91DAA928000F23C7B /* Setting_Icon.png in Resources */,
+				AA304F9E1DD19030003B7A9B /* Newspaper-2-icon.png in Resources */,
+				AA304FA21DD19444003B7A9B /* running_man-512.png in Resources */,
 				AAF345D31DA4EDFF00C28DF6 /* holdhands.png in Resources */,
 				AAAA000F1DCECC230076AA82 /* distributor.png in Resources */,
 				AA2999AD1DCFF240009BE499 /* productsImage1_en-US.png in Resources */,

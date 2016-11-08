@@ -1296,7 +1296,7 @@
                             <constraint firstItem="x1e-ng-pUh" firstAttribute="top" secondItem="ld2-RO-vu1" secondAttribute="bottom" constant="8" id="yMJ-0k-Dw1"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="最新消息" image="Ask_30x30.png" id="6eb-qA-YNX"/>
+                    <tabBarItem key="tabBarItem" title="最新消息" image="running_man-512.png" id="6eb-qA-YNX"/>
                     <connections>
                         <outlet property="tableView" destination="ld2-RO-vu1" id="4zu-uV-rIu"/>
                         <outlet property="textview" destination="x1e-ng-pUh" id="6hg-Ol-UIQ"/>
@@ -1834,8 +1834,8 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="WYN-7y-KGj" kind="relationship" relationship="viewControllers" id="ZbE-xe-qRg"/>
                         <segue destination="RQe-6a-RH3" kind="relationship" relationship="viewControllers" id="78Q-OL-Xks"/>
+                        <segue destination="WYN-7y-KGj" kind="relationship" relationship="viewControllers" id="ZbE-xe-qRg"/>
                         <segue destination="h4J-aA-qBt" kind="relationship" relationship="viewControllers" id="zGI-pk-crc"/>
                         <segue destination="zuj-69-fZC" kind="relationship" relationship="viewControllers" id="MMg-Nj-XS3"/>
                     </connections>
@@ -2250,7 +2250,6 @@
     </scenes>
     <resources>
         <image name="AMPMEssentialsFamily_en-US.png" width="520" height="405"/>
-        <image name="Ask_30x30.png" width="30" height="30"/>
         <image name="Home_30x30.png" width="30" height="30"/>
         <image name="Human-emblem-camera-BW.png" width="500" height="500"/>
         <image name="InstantlyAgelessFamily_en-US.png" width="225" height="222"/>
@@ -2278,14 +2277,15 @@
         <image name="luminescent.jpg" width="800" height="605"/>
         <image name="m1ndPackage_en-US_4445.png" width="500" height="500"/>
         <image name="productsImage1_en-US.png" width="800" height="568"/>
+        <image name="running_man-512.png" width="30" height="30"/>
         <image name="touring_icon.png" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="V1D-zN-6vt"/>
-        <segue reference="lHv-oH-TZo"/>
-        <segue reference="Pvc-Zk-1IY"/>
-        <segue reference="kAG-5w-Pi5"/>
+        <segue reference="Sx9-D3-UXJ"/>
+        <segue reference="oTH-HO-sKR"/>
         <segue reference="Bjy-85-zul"/>
+        <segue reference="Pvc-Zk-1IY"/>
+        <segue reference="lHv-oH-TZo"/>
         <segue reference="oPY-Pw-n7G"/>
         <segue reference="cfd-MX-JHo"/>
     </inferredMetricsTieBreakers>
