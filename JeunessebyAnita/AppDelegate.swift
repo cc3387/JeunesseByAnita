@@ -7,15 +7,27 @@
 //
 
 import UIKit
+import Firebase
+import Batch
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //Firebase//////////////////////////////////////////////////
+        FIRApp.configure()
+        
+        // Start Batch/////////////////////////////////////////////
+        // TODO : switch to live api key before store release
+        //Batch.start(withAPIKey: "DEV57F8E63F7E94B2D4A1B1723DCA8") // dev
+        Batch.start(withAPIKey: "57F8E63F7E5CEC46E964020BA9C465") // live
+        // Register for push notifications
+        BatchPush.registerForRemoteNotifications()
+        
         return true
     }
 
