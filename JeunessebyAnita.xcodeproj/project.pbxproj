@@ -12,7 +12,6 @@
 		AA29999F1DCF8728009BE499 /* InstantlyAgelessFamily_en-US.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29999E1DCF8728009BE499 /* InstantlyAgelessFamily_en-US.png */; };
 		AA2999A11DCF88FE009BE499 /* luminesceFamily_en-US.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2999A01DCF88FE009BE499 /* luminesceFamily_en-US.png */; };
 		AA2999A31DCFC981009BE499 /* arrow-graph-up-right.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2999A21DCFC981009BE499 /* arrow-graph-up-right.png */; };
-		AA2999A51DCFE66F009BE499 /* Human-emblem-camera-BW.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2999A41DCFE66F009BE499 /* Human-emblem-camera-BW.png */; };
 		AA2999A71DCFE7C0009BE499 /* AMPMEssentialsFamily_en-US.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2999A61DCFE7C0009BE499 /* AMPMEssentialsFamily_en-US.png */; };
 		AA2999AB1DCFF1AD009BE499 /* finit-new-500.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2999AA1DCFF1AD009BE499 /* finit-new-500.png */; };
 		AA2999AD1DCFF240009BE499 /* productsImage1_en-US.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2999AC1DCFF240009BE499 /* productsImage1_en-US.png */; };
@@ -25,6 +24,12 @@
 		AA304F9E1DD19030003B7A9B /* Newspaper-2-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA304F9D1DD19030003B7A9B /* Newspaper-2-icon.png */; };
 		AA304FA01DD19190003B7A9B /* alert.png in Resources */ = {isa = PBXBuildFile; fileRef = AA304F9F1DD19190003B7A9B /* alert.png */; };
 		AA304FA21DD19444003B7A9B /* running_man-512.png in Resources */ = {isa = PBXBuildFile; fileRef = AA304FA11DD19444003B7A9B /* running_man-512.png */; };
+		AA304FA41DD2A7BF003B7A9B /* travel-icon-png-25.png in Resources */ = {isa = PBXBuildFile; fileRef = AA304FA31DD2A7BF003B7A9B /* travel-icon-png-25.png */; };
+		AA304FA61DD2A9F3003B7A9B /* UpRight2Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = AA304FA51DD2A9F3003B7A9B /* UpRight2Blue.png */; };
+		AA304FAC1DD2AC7B003B7A9B /* shopping-cart-hi.png in Resources */ = {isa = PBXBuildFile; fileRef = AA304FAB1DD2AC7B003B7A9B /* shopping-cart-hi.png */; };
+		AA304FB01DD2AD96003B7A9B /* settinggear.png in Resources */ = {isa = PBXBuildFile; fileRef = AA304FAF1DD2AD96003B7A9B /* settinggear.png */; };
+		AA304FB21DD2B851003B7A9B /* camerayellow.png in Resources */ = {isa = PBXBuildFile; fileRef = AA304FB11DD2B851003B7A9B /* camerayellow.png */; };
+		AA304FB61DD2B9B4003B7A9B /* agreement.png in Resources */ = {isa = PBXBuildFile; fileRef = AA304FB51DD2B9B4003B7A9B /* agreement.png */; };
 		AA3054E31DB8765900EE4DE9 /* SendEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3054E21DB8765900EE4DE9 /* SendEmail.swift */; };
 		AA400AEB1DAB2E8800B9E2C7 /* EditorRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA400AEA1DAB2E8800B9E2C7 /* EditorRegister.swift */; };
 		AA400AED1DAB596E00B9E2C7 /* BatchClientPush.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA400AEC1DAB596E00B9E2C7 /* BatchClientPush.swift */; };
@@ -120,7 +125,6 @@
 		AA29999E1DCF8728009BE499 /* InstantlyAgelessFamily_en-US.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InstantlyAgelessFamily_en-US.png"; sourceTree = "<group>"; };
 		AA2999A01DCF88FE009BE499 /* luminesceFamily_en-US.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "luminesceFamily_en-US.png"; sourceTree = "<group>"; };
 		AA2999A21DCFC981009BE499 /* arrow-graph-up-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-graph-up-right.png"; sourceTree = "<group>"; };
-		AA2999A41DCFE66F009BE499 /* Human-emblem-camera-BW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Human-emblem-camera-BW.png"; sourceTree = "<group>"; };
 		AA2999A61DCFE7C0009BE499 /* AMPMEssentialsFamily_en-US.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AMPMEssentialsFamily_en-US.png"; sourceTree = "<group>"; };
 		AA2999AA1DCFF1AD009BE499 /* finit-new-500.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "finit-new-500.png"; sourceTree = "<group>"; };
 		AA2999AC1DCFF240009BE499 /* productsImage1_en-US.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "productsImage1_en-US.png"; sourceTree = "<group>"; };
@@ -133,6 +137,12 @@
 		AA304F9D1DD19030003B7A9B /* Newspaper-2-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Newspaper-2-icon.png"; sourceTree = "<group>"; };
 		AA304F9F1DD19190003B7A9B /* alert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alert.png; sourceTree = "<group>"; };
 		AA304FA11DD19444003B7A9B /* running_man-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "running_man-512.png"; sourceTree = "<group>"; };
+		AA304FA31DD2A7BF003B7A9B /* travel-icon-png-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "travel-icon-png-25.png"; sourceTree = "<group>"; };
+		AA304FA51DD2A9F3003B7A9B /* UpRight2Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UpRight2Blue.png; sourceTree = "<group>"; };
+		AA304FAB1DD2AC7B003B7A9B /* shopping-cart-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shopping-cart-hi.png"; sourceTree = "<group>"; };
+		AA304FAF1DD2AD96003B7A9B /* settinggear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settinggear.png; sourceTree = "<group>"; };
+		AA304FB11DD2B851003B7A9B /* camerayellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camerayellow.png; sourceTree = "<group>"; };
+		AA304FB51DD2B9B4003B7A9B /* agreement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = agreement.png; sourceTree = "<group>"; };
 		AA3054E11DB8580300EE4DE9 /* JeunessebyAnita-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JeunessebyAnita-Bridging-Header.h"; sourceTree = "<group>"; };
 		AA3054E21DB8765900EE4DE9 /* SendEmail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendEmail.swift; sourceTree = "<group>"; };
 		AA400AEA1DAB2E8800B9E2C7 /* EditorRegister.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorRegister.swift; sourceTree = "<group>"; };
@@ -356,6 +366,12 @@
 				AAF345A31DA3D09200C28DF6 /* LaunchScreen.storyboard */,
 				AAF345A61DA3D09200C28DF6 /* Info.plist */,
 				AA7827901DA921D900F23C7B /* GoogleService-Info.plist */,
+				AA304FB51DD2B9B4003B7A9B /* agreement.png */,
+				AA304FB11DD2B851003B7A9B /* camerayellow.png */,
+				AA304FAF1DD2AD96003B7A9B /* settinggear.png */,
+				AA304FAB1DD2AC7B003B7A9B /* shopping-cart-hi.png */,
+				AA304FA51DD2A9F3003B7A9B /* UpRight2Blue.png */,
+				AA304FA31DD2A7BF003B7A9B /* travel-icon-png-25.png */,
 				AA304FA11DD19444003B7A9B /* running_man-512.png */,
 				AA304F9F1DD19190003B7A9B /* alert.png */,
 				AA304F9D1DD19030003B7A9B /* Newspaper-2-icon.png */,
@@ -365,7 +381,6 @@
 				AA29999E1DCF8728009BE499 /* InstantlyAgelessFamily_en-US.png */,
 				AA2999AA1DCFF1AD009BE499 /* finit-new-500.png */,
 				AA2999A21DCFC981009BE499 /* arrow-graph-up-right.png */,
-				AA2999A41DCFE66F009BE499 /* Human-emblem-camera-BW.png */,
 				AAF345C81DA3D2AB00C28DF6 /* Ask_30x30.png */,
 				AA2999A01DCF88FE009BE499 /* luminesceFamily_en-US.png */,
 				AAAA000E1DCECC230076AA82 /* distributor.png */,
@@ -535,6 +550,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA304FA61DD2A9F3003B7A9B /* UpRight2Blue.png in Resources */,
 				AA7827911DA921D900F23C7B /* GoogleService-Info.plist in Resources */,
 				AAF345CB1DA3D2AB00C28DF6 /* Ask_30x30.png in Resources */,
 				AAAA001B1DCEFE1A0076AA82 /* generationyoung_slide.jpg in Resources */,
@@ -556,8 +572,10 @@
 				AA7827CF1DAAFD3200F23C7B /* JeunesseRanking.jpg in Resources */,
 				AAAA001D1DCF00260076AA82 /* jeunesse_reserve.jpg in Resources */,
 				AA304FA01DD19190003B7A9B /* alert.png in Resources */,
+				AA304FA41DD2A7BF003B7A9B /* travel-icon-png-25.png in Resources */,
 				AAF345D51DA554D000C28DF6 /* leader_icon.png in Resources */,
 				AAAA00091DCEA6160076AA82 /* Jeunesse_1024.jpg in Resources */,
+				AA304FB01DD2AD96003B7A9B /* settinggear.png in Resources */,
 				AAF345A21DA3D09200C28DF6 /* Assets.xcassets in Resources */,
 				AA7827C91DAA928000F23C7B /* Setting_Icon.png in Resources */,
 				AA304F9E1DD19030003B7A9B /* Newspaper-2-icon.png in Resources */,
@@ -565,14 +583,16 @@
 				AAF345D31DA4EDFF00C28DF6 /* holdhands.png in Resources */,
 				AAAA000F1DCECC230076AA82 /* distributor.png in Resources */,
 				AA2999AD1DCFF240009BE499 /* productsImage1_en-US.png in Resources */,
+				AA304FAC1DD2AC7B003B7A9B /* shopping-cart-hi.png in Resources */,
+				AA304FB61DD2B9B4003B7A9B /* agreement.png in Resources */,
 				AAF345CF1DA4C75300C28DF6 /* jeunesse-logo.jpg in Resources */,
 				AA78278F1DA8971D00F23C7B /* future_icon.jpg in Resources */,
 				AA2999A11DCF88FE009BE499 /* luminesceFamily_en-US.png in Resources */,
 				AA2999AF1DCFF3D7009BE499 /* m1ndPackage_en-US_4445.png in Resources */,
-				AA2999A51DCFE66F009BE499 /* Human-emblem-camera-BW.png in Resources */,
 				AA2999A31DCFC981009BE499 /* arrow-graph-up-right.png in Resources */,
 				AAAA00171DCEDF550076AA82 /* instantly-ageless.jpg in Resources */,
 				AAAA000D1DCECABC0076AA82 /* Jeunesse_logo_3.jpg in Resources */,
+				AA304FB21DD2B851003B7A9B /* camerayellow.png in Resources */,
 				AA7827C11DAA7B2300F23C7B /* touring_icon.png in Resources */,
 				AAF345A01DA3D09200C28DF6 /* Main.storyboard in Resources */,
 				AA78277D1DA7386300F23C7B /* dollaricon.png in Resources */,

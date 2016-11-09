@@ -63,10 +63,6 @@
                                 <frame key="frameInset" minX="15" minY="173" width="48" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="holdhands.png" translatesAutoresizingMaskIntoConstraints="NO" id="Pef-gW-sqQ">
-                                <frame key="frameInset" minX="6" minY="105" width="66" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5WC-JV-5vl">
                                 <frame key="frameInset" minX="66" minY="282" width="93" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -134,20 +130,20 @@
                                     <segue destination="YVr-z1-FC3" kind="show" id="dve-vk-Nkn"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="touring_icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="shW-NG-Ns3">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="travel-icon-png-25.png" translatesAutoresizingMaskIntoConstraints="NO" id="shW-NG-Ns3">
                                 <frame key="frameInset" minX="189" minY="111" width="49" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Shopping_Bag.png" translatesAutoresizingMaskIntoConstraints="NO" id="tE4-XT-XAx">
-                                <frame key="frameInset" minX="196" minY="172" width="43" height="42"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shopping-cart-hi.png" translatesAutoresizingMaskIntoConstraints="NO" id="tE4-XT-XAx">
+                                <frame key="frameInset" minX="189" minY="173" width="44" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Setting_Icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="Nep-kr-BMo">
-                                <frame key="frameInset" minX="196" minY="232" width="43" height="42"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="settinggear.png" translatesAutoresizingMaskIntoConstraints="NO" id="Nep-kr-BMo">
+                                <frame key="frameInset" minX="191" minY="231" width="45" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Human-emblem-camera-BW.png" translatesAutoresizingMaskIntoConstraints="NO" id="hQp-n5-KMY">
-                                <frame key="frameInset" minX="196" minY="280" width="43" height="42"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="camerayellow.png" translatesAutoresizingMaskIntoConstraints="NO" id="hQp-n5-KMY">
+                                <frame key="frameInset" minX="192" minY="282" width="43" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sXK-Fg-1j5">
@@ -184,7 +180,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bZ1-Zi-e6T">
-                                <frame key="frameInset" minX="246" minY="288" width="91" height="30"/>
+                                <frame key="frameInset" minX="247" minY="288" width="57" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="相片集">
@@ -196,6 +192,10 @@
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="distributor.png" translatesAutoresizingMaskIntoConstraints="NO" id="TIk-x6-QPA">
                                 <frame key="frameInset" minX="196" minY="543" width="96" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="agreement.png" translatesAutoresizingMaskIntoConstraints="NO" id="Pef-gW-sqQ">
+                                <frame key="frameInset" minX="7" minY="114" width="65" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -726,7 +726,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="加入我们" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tp9-wr-6Ep">
-                                <frame key="frameInset" minX="101" minY="122" width="112" height="42"/>
+                                <frame key="frameInset" minX="103" minY="122" width="112" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="25"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -773,8 +773,8 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES" shipmentTrackingNumber="YES" flightNumber="YES" lookupSuggestion="YES"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="holdhands.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tnc-Wv-82u">
-                                <frame key="frameInset" minX="16" minY="107" width="77" height="73"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="agreement.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tnc-Wv-82u">
+                                <frame key="frameInset" minX="15" minY="115" width="77" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo-jeunesse-onyx_on_gray.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Btx-Cr-SYZ">
@@ -819,14 +819,6 @@
                                     <segue destination="UF4-th-0OJ" kind="show" id="wNr-PB-OSi"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YMx-m6-gNV">
-                                <frame key="frameInset" minX="71" minY="102" width="147" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="25"/>
-                                <state key="normal" title="致富良机">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dollaricon.png" translatesAutoresizingMaskIntoConstraints="NO" id="4wf-ou-2AC">
                                 <frame key="frameInset" minX="16" minY="102" width="40" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -869,6 +861,14 @@
                                 <frame key="frameInset" minX="129" minY="28" width="117" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YMx-m6-gNV">
+                                <frame key="frameInset" minX="64" minY="100" width="114" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="25"/>
+                                <state key="normal" title="致富良机">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -970,7 +970,7 @@
                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES" shipmentTrackingNumber="YES" flightNumber="YES" lookupSuggestion="YES"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="efN-rR-6X1">
-                                <frame key="frameInset" minX="105" minY="117" width="164" height="42"/>
+                                <frame key="frameInset" minX="89" minY="117" width="114" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="27"/>
                                 <state key="normal" title="你的将来">
@@ -1115,6 +1115,7 @@
                                 <frame key="frameInset" minX="16" minY="142" width="343" height="257"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.41568627450000001" green="0.67450980390000004" blue="0.88235294119999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES" shipmentTrackingNumber="YES" flightNumber="YES" lookupSuggestion="YES"/>
@@ -1194,6 +1195,7 @@
                                 <frame key="frameInset" minX="16" minY="144" width="343" height="258"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.41568627450000001" green="0.67450980390000004" blue="0.88235294119999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES" shipmentTrackingNumber="YES" flightNumber="YES" lookupSuggestion="YES"/>
@@ -1462,7 +1464,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                 <state key="normal" title="Back">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="Anw-sk-lCb" kind="show" id="90o-Lu-juA"/>
@@ -1861,10 +1863,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ih1-Ob-NFZ">
-                                <frame key="frameInset" minX="16" minY="20" width="75" height="30"/>
+                                <frame key="frameInset" minX="16" minY="20" width="90" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="回到目录">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="UF4-th-0OJ" kind="show" id="P86-hy-Wzq"/>
@@ -1933,7 +1936,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PdC-bL-hce" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3953" y="851"/>
+            <point key="canvasLocation" x="-3954.4000000000001" y="850.52473763118451"/>
         </scene>
         <!--Editor About Leader-->
         <scene sceneID="X6i-zI-xGi">
@@ -2251,7 +2254,6 @@
     <resources>
         <image name="AMPMEssentialsFamily_en-US.png" width="520" height="405"/>
         <image name="Home_30x30.png" width="30" height="30"/>
-        <image name="Human-emblem-camera-BW.png" width="500" height="500"/>
         <image name="InstantlyAgelessFamily_en-US.png" width="225" height="222"/>
         <image name="Instruction_30x30.png" width="30" height="30"/>
         <image name="Jeunesse System.png" width="800" height="559"/>
@@ -2259,9 +2261,9 @@
         <image name="Jeunesse_1024.jpg" width="1024" height="1024"/>
         <image name="Jeunesse_Logo_2.jpg" width="236" height="236"/>
         <image name="Seaside.jpg" width="1920" height="1080"/>
-        <image name="Setting_Icon.png" width="512" height="512"/>
-        <image name="Shopping_Bag.png" width="512" height="512"/>
+        <image name="agreement.png" width="327" height="228"/>
         <image name="arrow-graph-up-right.png" width="512" height="512"/>
+        <image name="camerayellow.png" width="256" height="256"/>
         <image name="cloud-horizon.jpg" width="620" height="465"/>
         <image name="distributor.png" width="260" height="150"/>
         <image name="dollaricon.png" width="1024" height="1024"/>
@@ -2278,15 +2280,18 @@
         <image name="m1ndPackage_en-US_4445.png" width="500" height="500"/>
         <image name="productsImage1_en-US.png" width="800" height="568"/>
         <image name="running_man-512.png" width="30" height="30"/>
+        <image name="settinggear.png" width="512" height="512"/>
+        <image name="shopping-cart-hi.png" width="600" height="568"/>
         <image name="touring_icon.png" width="512" height="512"/>
+        <image name="travel-icon-png-25.png" width="499" height="498"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Sx9-D3-UXJ"/>
         <segue reference="oTH-HO-sKR"/>
-        <segue reference="Bjy-85-zul"/>
+        <segue reference="6fw-Lh-QdW"/>
+        <segue reference="WdI-Lm-2OT"/>
         <segue reference="Pvc-Zk-1IY"/>
-        <segue reference="lHv-oH-TZo"/>
-        <segue reference="oPY-Pw-n7G"/>
-        <segue reference="cfd-MX-JHo"/>
+        <segue reference="GTU-2D-qdT"/>
+        <segue reference="Dz6-O2-bir"/>
+        <segue reference="IUx-Gg-gl9"/>
     </inferredMetricsTieBreakers>
 </document>

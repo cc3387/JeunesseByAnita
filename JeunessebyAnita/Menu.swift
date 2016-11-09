@@ -13,7 +13,7 @@ import Firebase
 class Menu:UIViewController{
     
     @IBAction func Photos(_ sender: AnyObject) {
-        if let url = NSURL(string: "http://slide.ly/view/bcfc0189598434a9d2ecf4de2163f49d") {
+        if let url = NSURL(string: "http://s349.photobucket.com/user/cc3387/slideshow/Jeunesse%20By%20Anita") {
             UIApplication.shared.openURL(url as URL)
         }
     }
