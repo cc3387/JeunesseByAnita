@@ -47,6 +47,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationDidBecomeActive(_ application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+        
+        let devDeviceToken = ProfileLogin.phoneid
+        if let pushClient = BatchClientPush(apiKey: "57F8E63F7E5CEC46E964020BA9C465", restKey: "a524aa85f96b3bc103188428b026bd5b") {
+            
+            pushClient.sandbox = false
+            pushClient.customPayload = ["aps": ["badge": 0] as AnyObject]
+            pushClient.recipients.tokens.append(devDeviceToken)
+            
+            pushClient.send { (response, error) in
+                if let error = error {
+                    print("Something happened while sending the push: \(response) \(error.localizedDescription)")
+                } else {
+                    print("Push sent \(response)")
+                }
+            }
+        }
+
     }
 
     func applicationWillTerminate(_ application: UIApplication) {

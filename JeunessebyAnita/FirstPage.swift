@@ -46,8 +46,16 @@ class FirstPage:UIViewController{
     }
     
     @IBAction func JoinAnita(_ sender: AnyObject) {
-        if let url = NSURL(string: "https://simplyeffective.jeunesseglobal.com/zh-US") {
+        
+        if(ProfileLogin.joinlink == ""){
+        if let url = NSURL(string: "https://joffice.jeunesseglobal.com/signup.asp?locale=zh-US&siteurl=simplyeffective") {
             UIApplication.shared.openURL(url as URL)
+        }
+        }
+        else{
+            if let url = NSURL(string: ProfileLogin.joinlink) {
+                UIApplication.shared.openURL(url as URL)
+            }
         }
     }
     

@@ -19,6 +19,20 @@ class CommunicationUp:UIViewController{
     
     var ref = FIRDatabase.database().reference()
     
+    @IBAction func Distributor(_ sender: AnyObject) {
+        if(ProfileLogin.joinlink == ""){
+            if let url = NSURL(string: "https://joffice.jeunesseglobal.com/signup.asp?locale=zh-US&siteurl=simplyeffective") {
+                UIApplication.shared.openURL(url as URL)
+            }
+        }
+        else{
+            if let url = NSURL(string: ProfileLogin.joinlink) {
+                UIApplication.shared.openURL(url as URL)
+            }
+        }
+    }
+    
+    
     @IBAction func Send(_ sender: AnyObject) {
         
         if(ProfileLogin.password != "" && self.entertext.text != ""){
