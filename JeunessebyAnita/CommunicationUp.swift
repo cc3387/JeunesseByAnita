@@ -16,8 +16,12 @@ class CommunicationUp:UIViewController{
     @IBOutlet weak var entertext: UITextField!
     var messages = [String]()
     var time = [String]()
-    
     var ref = FIRDatabase.database().reference()
+    
+    // The following statement is what you need
+//    var customTabBarItem:UITabBarItem = UITabBarItem(title: "Upper Level", image: UIImage(named: "Instruction_30x30.png")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal), selectedImage: UIImage(named: "Instruction_30x30.png"))
+//    var customTabBarItemsimply:UITabBarItem = UITabBarItem(title: "上层版面", image: UIImage(named: "Instruction_30x30.png")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal), selectedImage: UIImage(named: "Instruction_30x30.png"))
+//    var customTabBarItemtrad:UITabBarItem = UITabBarItem(title: "上層版面", image: UIImage(named: "Instruction_30x30.png")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal), selectedImage: UIImage(named: "Instruction_30x30.png"))
     
     @IBAction func Distributor(_ sender: AnyObject) {
         if(ProfileLogin.joinlink == ""){
@@ -101,3 +105,6 @@ class CommunicationUp:UIViewController{
     }
     
 };
+
+
+

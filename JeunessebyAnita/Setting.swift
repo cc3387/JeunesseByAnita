@@ -19,14 +19,14 @@ class Setting:UIViewController, MFMailComposeViewControllerDelegate{
     var ref = FIRDatabase.database().reference()
     
     @IBAction func guidlines(_ sender: AnyObject) {
-        if let url = NSURL(string: "https://www.jeunesseglobal.com/zh-US/terms-of-service") {
+        if let url = NSURL(string: "https://simplyeffective.jeunesseglobal.com/zh-US/terms-of-service") {
             UIApplication.shared.openURL(url as URL)
         }
     }
     
     @IBAction func guidelinestwo(_ sender: AnyObject) {
         
-        if let url = NSURL(string: "https://www.jeunesseglobal.com/zh-US/privacy-policy") {
+        if let url = NSURL(string: "https://simplyeffective.jeunesseglobal.com/zh-US/privacy-policy") {
             UIApplication.shared.openURL(url as URL)
         }
     }

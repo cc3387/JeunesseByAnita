@@ -14,6 +14,69 @@ class FirstPage:UIViewController{
     
     @IBOutlet weak var ReferralWarning: UILabel!
     @IBOutlet weak var Referral: UITextField!
+    
+    //List of Labels that will be changed due to language choose
+    @IBOutlet weak var AnitaTeamLabel: UILabel!
+    @IBOutlet weak var RefererEmail: UILabel!
+    @IBOutlet weak var StartBrowsing: UILabel!
+    @IBOutlet weak var ToLogin: UILabel!
+    @IBOutlet weak var Alreadymember: UILabel!
+    @IBOutlet weak var Becomemember: UILabel!
+    @IBOutlet weak var ToRegister: UILabel!
+    @IBOutlet weak var JoinAnitaTeam: UILabel!
+    
+    //////////////////////////////////////
+    @IBAction func English(_ sender: Any) {
+        language = "english"
+        self.AnitaTeamLabel.text = "Jeunesse - Anita Team"
+        self.RefererEmail.text = "Referrer Email : "
+        self.StartBrowsing.text = "Start Browsing"
+        self.JoinAnitaTeam.text = "Join Anita's Team Now!"
+        self.Alreadymember.text = "Already a Member?"
+        self.ToLogin.text = "To Login Page"
+        self.Becomemember.text = "Become a Member!"
+        self.ToRegister.text = "To Register Page"
+    }
+    
+    @IBAction func Traditional(_ sender: Any) {
+        language = "traditional"
+        self.AnitaTeamLabel.text = "婕斯 - Anita 團隊"
+        self.RefererEmail.text = "介紹人電郵 : "
+        self.StartBrowsing.text = "開始瀏覽"
+        self.JoinAnitaTeam.text = "立刻加入Anita的團隊!"
+        self.Alreadymember.text = "已經是會員?"
+        self.ToLogin.text = "立刻登入！"
+        self.Becomemember.text = "加入成為會員"
+        self.ToRegister.text = "立刻註冊！"
+    }
+    
+    @IBAction func Simplified(_ sender: Any) {
+         language = "simplified"
+        self.AnitaTeamLabel.text = "婕斯 - Anita 团队"
+        self.RefererEmail.text = "介绍人电邮 : "
+        self.StartBrowsing.text = "开始浏览"
+        self.JoinAnitaTeam.text = "立刻加入Anita的团队!"
+        self.Alreadymember.text = "已经是会员?"
+        self.ToLogin.text = "立刻登入！"
+        self.Becomemember.text = "加入成为会员"
+        self.ToRegister.text = "立刻注册！"
+    }
+    
+    
+    ///////////////////////////////////////
+    @IBAction func joinanita(_ sender: Any) {
+        if(ProfileLogin.joinlink == ""){
+            if let url = NSURL(string: "https://joffice.jeunesseglobal.com/signup.asp?locale=zh-US&siteurl=simplyeffective") {
+                UIApplication.shared.openURL(url as URL)
+            }
+        }
+        else{
+            if let url = NSURL(string: ProfileLogin.joinlink) {
+                UIApplication.shared.openURL(url as URL)
+            }
+        }
+    }
+    
     @IBAction func ReferralLogin(_ sender: AnyObject) {
         
         ProfileLogin.loginemail = self.Referral.text!
@@ -40,30 +103,62 @@ class FirstPage:UIViewController{
             
         }
         else{
+            
+            if(language == "english"){
+            self.ReferralWarning.text = "Please enter email"
             self.ReferralWarning.textColor = UIColor.red
-        }
-        
-    }
-    
-    @IBAction func JoinAnita(_ sender: AnyObject) {
-        
-        if(ProfileLogin.joinlink == ""){
-        if let url = NSURL(string: "https://joffice.jeunesseglobal.com/signup.asp?locale=zh-US&siteurl=simplyeffective") {
-            UIApplication.shared.openURL(url as URL)
-        }
-        }
-        else{
-            if let url = NSURL(string: ProfileLogin.joinlink) {
-                UIApplication.shared.openURL(url as URL)
+                
+            }
+            else if(language == "traditional"){
+            self.ReferralWarning.text = "請輸入電郵"
+            self.ReferralWarning.textColor = UIColor.red
+            }
+            else if(language == "simplified"){
+                self.ReferralWarning.text = "請输入电邮"
+                self.ReferralWarning.textColor = UIColor.red
             }
         }
+        
     }
-    
     
     override func viewDidLoad() {
         
+        self.Referral.text = "luianita@yahoo.com"
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
         view.addGestureRecognizer(tap)
+        
+        if(language == "english"){
+            
+            self.AnitaTeamLabel.text = "Jeunesse - Anita Team"
+            self.RefererEmail.text = "Referrer Email: "
+            self.StartBrowsing.text = "Start Browsing"
+            self.JoinAnitaTeam.text = "Join Anita's Team Now!"
+            self.Alreadymember.text = "Already a Member?"
+            self.ToLogin.text = "To Login Page"
+            self.Becomemember.text = "Become a Member!"
+            self.ToRegister.text = "To Register Page"
+        }
+        else if(language == "traditional"){
+            
+            self.AnitaTeamLabel.text = "婕斯 - Anita 團隊"
+            self.RefererEmail.text = "介紹人電郵: "
+            self.StartBrowsing.text = "開始瀏覽"
+            self.JoinAnitaTeam.text = "立刻加入Anita的團隊!"
+            self.Alreadymember.text = "已經是會員?"
+            self.ToLogin.text = "立刻登入！"
+            self.Becomemember.text = "加入成為會員"
+            self.ToRegister.text = "立刻註冊！"
+        }
+        else if(language == "simplified"){
+            self.AnitaTeamLabel.text = "婕斯 - Anita 团队"
+            self.RefererEmail.text = "介绍人电邮 : "
+            self.StartBrowsing.text = "开始浏览"
+            self.JoinAnitaTeam.text = "立刻加入Anita的团队!"
+            self.Alreadymember.text = "已经是会员?"
+            self.ToLogin.text = "立刻登入！"
+            self.Becomemember.text = "加入成为会员"
+            self.ToRegister.text = "立刻注册！"
+        }
     }
     
     func loadDestinationVC(){

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		208628F23290034AB04A4213 /* Pods_JeunessebyAnita.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D5C47C7F77C1F06DA768F3 /* Pods_JeunessebyAnita.framework */; };
+		AA0215571DDBED5100F3CDB5 /* YourFuture.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0215561DDBED5100F3CDB5 /* YourFuture.swift */; };
 		AA29999D1DCF8592009BE499 /* ProductPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA29999C1DCF8592009BE499 /* ProductPage.swift */; };
 		AA29999F1DCF8728009BE499 /* InstantlyAgelessFamily_en-US.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29999E1DCF8728009BE499 /* InstantlyAgelessFamily_en-US.png */; };
 		AA2999A11DCF88FE009BE499 /* luminesceFamily_en-US.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2999A01DCF88FE009BE499 /* luminesceFamily_en-US.png */; };
@@ -21,6 +22,7 @@
 		AA2BD6CE1DBBA95800E8ED97 /* EditorForeword.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2BD6CD1DBBA95800E8ED97 /* EditorForeword.swift */; };
 		AA2BD6D01DBC478900E8ED97 /* CommunicationUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2BD6CF1DBC478900E8ED97 /* CommunicationUp.swift */; };
 		AA2BD6D21DBC4CB000E8ED97 /* CommunicationDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2BD6D11DBC4CB000E8ED97 /* CommunicationDown.swift */; };
+		AA2F302A1DDAD10A00CCE02A /* Jeuness_Ranking.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA2F30291DDAD10A00CCE02A /* Jeuness_Ranking.jpg */; };
 		AA304F9E1DD19030003B7A9B /* Newspaper-2-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA304F9D1DD19030003B7A9B /* Newspaper-2-icon.png */; };
 		AA304FA01DD19190003B7A9B /* alert.png in Resources */ = {isa = PBXBuildFile; fileRef = AA304F9F1DD19190003B7A9B /* alert.png */; };
 		AA304FA21DD19444003B7A9B /* running_man-512.png in Resources */ = {isa = PBXBuildFile; fileRef = AA304FA11DD19444003B7A9B /* running_man-512.png */; };
@@ -121,6 +123,7 @@
 /* Begin PBXFileReference section */
 		5E9AED2DF483AA7A3EE06C95 /* Pods-JeunessebyAnita.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JeunessebyAnita.release.xcconfig"; path = "Pods/Target Support Files/Pods-JeunessebyAnita/Pods-JeunessebyAnita.release.xcconfig"; sourceTree = "<group>"; };
 		7C18B32F4399DEA6DC7CB6CA /* Pods-JeunessebyAnita.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JeunessebyAnita.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JeunessebyAnita/Pods-JeunessebyAnita.debug.xcconfig"; sourceTree = "<group>"; };
+		AA0215561DDBED5100F3CDB5 /* YourFuture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YourFuture.swift; sourceTree = "<group>"; };
 		AA29999C1DCF8592009BE499 /* ProductPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductPage.swift; sourceTree = "<group>"; };
 		AA29999E1DCF8728009BE499 /* InstantlyAgelessFamily_en-US.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InstantlyAgelessFamily_en-US.png"; sourceTree = "<group>"; };
 		AA2999A01DCF88FE009BE499 /* luminesceFamily_en-US.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "luminesceFamily_en-US.png"; sourceTree = "<group>"; };
@@ -134,6 +137,7 @@
 		AA2BD6CD1DBBA95800E8ED97 /* EditorForeword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorForeword.swift; sourceTree = "<group>"; };
 		AA2BD6CF1DBC478900E8ED97 /* CommunicationUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunicationUp.swift; sourceTree = "<group>"; };
 		AA2BD6D11DBC4CB000E8ED97 /* CommunicationDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunicationDown.swift; sourceTree = "<group>"; };
+		AA2F30291DDAD10A00CCE02A /* Jeuness_Ranking.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jeuness_Ranking.jpg; sourceTree = "<group>"; };
 		AA304F9D1DD19030003B7A9B /* Newspaper-2-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Newspaper-2-icon.png"; sourceTree = "<group>"; };
 		AA304F9F1DD19190003B7A9B /* alert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alert.png; sourceTree = "<group>"; };
 		AA304FA11DD19444003B7A9B /* running_man-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "running_man-512.png"; sourceTree = "<group>"; };
@@ -355,6 +359,7 @@
 				AA7827BC1DA94AEA00F23C7B /* JoinUs.swift */,
 				AA7827B71DA930E500F23C7B /* Login.swift */,
 				AA7827CC1DAAE19900F23C7B /* GetRich.swift */,
+				AA0215561DDBED5100F3CDB5 /* YourFuture.swift */,
 				AA400AEC1DAB596E00B9E2C7 /* BatchClientPush.swift */,
 				AA400AF01DAC2F0600B9E2C7 /* Menutwo.swift */,
 				AA7827921DA9232D00F23C7B /* Menu.swift */,
@@ -373,6 +378,7 @@
 				AA304FA51DD2A9F3003B7A9B /* UpRight2Blue.png */,
 				AA304FA31DD2A7BF003B7A9B /* travel-icon-png-25.png */,
 				AA304FA11DD19444003B7A9B /* running_man-512.png */,
+				AA2F30291DDAD10A00CCE02A /* Jeuness_Ranking.jpg */,
 				AA304F9F1DD19190003B7A9B /* alert.png */,
 				AA304F9D1DD19030003B7A9B /* Newspaper-2-icon.png */,
 				AA2999AE1DCFF3D7009BE499 /* m1ndPackage_en-US_4445.png */,
@@ -567,6 +573,7 @@
 				AAAA00191DCEE7560076AA82 /* logo-jeunesse-onyx_on_gray.jpg in Resources */,
 				AAF345CD1DA3D2AB00C28DF6 /* Instruction_30x30.png in Resources */,
 				AA29999F1DCF8728009BE499 /* InstantlyAgelessFamily_en-US.png in Resources */,
+				AA2F302A1DDAD10A00CCE02A /* Jeuness_Ranking.jpg in Resources */,
 				AAAA00151DCED0BF0076AA82 /* luminescent.jpg in Resources */,
 				AAAA00111DCECCE90076AA82 /* cloud-horizon.jpg in Resources */,
 				AA7827CF1DAAFD3200F23C7B /* JeunesseRanking.jpg in Resources */,
@@ -691,6 +698,7 @@
 				AA400AEF1DAB606400B9E2C7 /* EditorNews.swift in Sources */,
 				AA2BD6CC1DBB919600E8ED97 /* SecondPage.swift in Sources */,
 				AAF3459B1DA3D09200C28DF6 /* AppDelegate.swift in Sources */,
+				AA0215571DDBED5100F3CDB5 /* YourFuture.swift in Sources */,
 				AA5D49891DADFD1600636299 /* Setting.swift in Sources */,
 				AA400AEB1DAB2E8800B9E2C7 /* EditorRegister.swift in Sources */,
 			);

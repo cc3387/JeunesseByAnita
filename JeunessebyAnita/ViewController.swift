@@ -39,7 +39,8 @@ class News: UIViewController, UITableViewDataSource, UITableViewDelegate{
     
     //Variables
     @IBOutlet weak var tableView: UITableView!
-    @IBOutlet var textview: UITextView!
+    @IBOutlet weak var textView: UITextView!
+    
     var sections: [Section] = SectionsData().getSectionsFromData()
     var messages = [String]()
     var times = [String]()
@@ -78,18 +79,15 @@ class News: UIViewController, UITableViewDataSource, UITableViewDelegate{
                                 finaltext += ind + "\n" + time + "\n" + "\n";
                             }
                             
-                            self.textview.text! = finaltext
-                            
+                            self.textView.text = finaltext
                         }
                     })
                 }
         })
-        
-        self.textview.backgroundColor = UIColor(red: 227, green: 236, blue: 255)
-        
-        //let time = NSDate()
-        //self.textview!.text = "这是 Anita 团队第一个讯息" + "\n" + "\(time)" + "\n" + "\n" + "立刻加入大家庭，https://joffice.jeunesseglobal.com/signup.asp?locale=zh-US&siteurl=simplyeffective" + "\n" + "\(time)" + "\n" + "\n" + "立刻购买产品，https://simplyeffective.jeunesseglobal.com/zh-US" + "\n" + "\(time)";
+
+        self.textView.backgroundColor = UIColor(red: 227, green: 236, blue: 255)
     }
+        
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return sections[section].items.count
@@ -102,7 +100,6 @@ class News: UIViewController, UITableViewDataSource, UITableViewDelegate{
     func numberOfSections(in tableView: UITableView) -> Int {
         return sections.count
     }
-    
     
     //Read the whole table with sections
     private func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: IndexPath) -> UITableViewCell {
@@ -124,6 +121,8 @@ class News: UIViewController, UITableViewDataSource, UITableViewDelegate{
         
         return cell;
     }
+    
+    
     
 };
 
