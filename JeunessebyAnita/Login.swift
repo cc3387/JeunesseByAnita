@@ -13,6 +13,15 @@ import Firebase
 class Login:UIViewController{
     
     
+    @IBOutlet weak var LoginPage: UILabel!
+    @IBOutlet weak var EmailTitle: UILabel!
+    @IBOutlet weak var PasswordTitle: UILabel!
+    @IBOutlet weak var LoginButtonTitle: UILabel!
+    @IBOutlet weak var Back: UILabel!
+    var link = ""
+    
+    
+    /////////////////////////////////////////////////
     @IBOutlet weak var Email: UITextField!
     @IBOutlet weak var Password: UITextField!
     @IBOutlet weak var Exception: UILabel!
@@ -89,6 +98,35 @@ class Login:UIViewController{
     }
     
     override func viewDidLoad() {
+        
+        if(language == "english"){
+            language = "english"
+            self.LoginPage.text = "App User Login"
+            self.EmailTitle.text = "Email"
+            self.PasswordTitle.text = "Password"
+            self.LoginButtonTitle.text = "Login"
+            self.Back.text = "Back"
+            self.link = "en-US"
+        }
+        else if(language == "traditional"){
+            language = "traditional"
+            self.LoginPage.text = "版主登入"
+            self.EmailTitle.text = "電郵"
+            self.PasswordTitle.text = "密碼"
+            self.LoginButtonTitle.text = "登入"
+            self.Back.text = "返回前頁"
+            self.link = "zh-US"
+        }
+        else if(language == "simplified"){
+            language = "simplified"
+            self.LoginPage.text = "版主登入"
+            self.EmailTitle.text = "电邮"
+            self.PasswordTitle.text = "密码"
+            self.LoginButtonTitle.text = "登入"
+            self.Back.text = "返回前页"
+            self.link = "zh-US"
+        }
+
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
         view.addGestureRecognizer(tap)
     }

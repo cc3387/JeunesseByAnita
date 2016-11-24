@@ -12,16 +12,16 @@ import Firebase
 
 class CommunicationUp:UIViewController{
 
+    @IBOutlet weak var UpperLevel: UILabel!
     @IBOutlet weak var communicationboard: UITextView!
     @IBOutlet weak var entertext: UITextField!
+    @IBOutlet weak var Send: UILabel!
+    @IBOutlet weak var Description: UILabel!
+    @IBOutlet weak var Back: UILabel!
+    
     var messages = [String]()
     var time = [String]()
     var ref = FIRDatabase.database().reference()
-    
-    // The following statement is what you need
-//    var customTabBarItem:UITabBarItem = UITabBarItem(title: "Upper Level", image: UIImage(named: "Instruction_30x30.png")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal), selectedImage: UIImage(named: "Instruction_30x30.png"))
-//    var customTabBarItemsimply:UITabBarItem = UITabBarItem(title: "上层版面", image: UIImage(named: "Instruction_30x30.png")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal), selectedImage: UIImage(named: "Instruction_30x30.png"))
-//    var customTabBarItemtrad:UITabBarItem = UITabBarItem(title: "上層版面", image: UIImage(named: "Instruction_30x30.png")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal), selectedImage: UIImage(named: "Instruction_30x30.png"))
     
     @IBAction func Distributor(_ sender: AnyObject) {
         if(ProfileLogin.joinlink == ""){
@@ -59,12 +59,34 @@ class CommunicationUp:UIViewController{
         }
         
         self.entertext.text = "";
-        
     }
     
     
     override func viewDidLoad() {
         
+        if(language == "english"){
+            language = "english"
+            self.UpperLevel.text = "Upper Level"
+            self.Send.text = "Send"
+            self.Description.text = "User can talk to upper level here"
+            self.Back.text = "Back"
+        }
+        else if(language == "traditional"){
+            language = "traditional"
+            self.UpperLevel.text = "上層溝通"
+            self.Send.text = "發送訊息"
+            self.Description.text = "版主可以和上層溝通"
+            self.Back.text = "回到前頁"
+        }
+        else if(language == "simplified"){
+            language = "simplified"
+            self.UpperLevel.text = "上层沟通"
+            self.Send.text = "发送讯息"
+            self.Description.text = "版主可以和上层沟通"
+            self.Back.text = "回到前页"
+        }
+
+        //Reading information from Database
         var ref = FIRDatabase.database().reference()
         
         ref.queryOrdered(byChild: "Email").queryEqual(toValue: ProfileLogin.upper).observe(.childAdded, with: { snapshot in

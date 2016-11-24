@@ -88,14 +88,17 @@ class EditorRegister:UIViewController{
                                 
                                 var profile = [
                                     "AboutLeader": "",
+                                    "AboutLeadereng": "",
                                     "AccountType": "Write",
                                     "Email": self.Email.text!,
                                     "Joinlink": "",
                                     "Joinus":"",
+                                    "Joinuseng":"",
                                     "Owner": self.Name.text!,
                                     "Phoneid" : phoneid,
                                     "Shoplink": "",
                                     "Foreword": "",
+                                    "Forewordeng":"",
                                     "password": self.Password.text!,
                                     "uid": self.uid,
                                     "notification": "1",

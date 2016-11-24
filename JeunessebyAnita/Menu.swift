@@ -24,24 +24,28 @@ class Menu:UIViewController{
     @IBOutlet weak var Gallery: UILabel!
     @IBOutlet weak var Login: UILabel!
     @IBOutlet weak var Activity: UILabel!
+    @IBOutlet weak var ChatUpper: UILabel!
+    @IBOutlet weak var ChatLower: UILabel!
     
     //Link to the shop language
     var link = "en-US"
     
     @IBAction func English(_ sender: Any) {
     language = "english"
-    self.AnitaTitle.text = "Anita's Team"
+    self.AnitaTitle.text = "Anita Team"
     self.Joinus.text = "Join Us"
     self.Homepage.text = "Homepage"
     self.Leadership.text = "Leadership"
-    self.Opportunities.text = "Opportunities"
+    self.Opportunities.text = "Opportunity"
     self.YourFuture.text = "Your Future"
     self.Travel.text = "Travel"
     self.Shopping.text = "Shop"
-    self.Setting.text = "Settings"
+    self.Setting.text = "Setting"
     self.Gallery.text = "Gallery"
     self.Login.text = "Login"
     self.Activity.text = "Activity"
+    self.ChatUpper.text = "Chat Upper"
+    self.ChatLower.text = "Chat Lower"
     self.link = "en-US"
     }
     
@@ -59,6 +63,8 @@ class Menu:UIViewController{
     self.Gallery.text = "相片集"
     self.Login.text = "登入頁面"
     self.Activity.text = "活動訓練"
+    self.ChatUpper.text = "上層溝通"
+    self.ChatLower.text = "下層溝通"
     self.link = "zh-US"
     }
     
@@ -76,6 +82,8 @@ class Menu:UIViewController{
     self.Gallery.text = "相片集"
     self.Login.text = "登入页面"
     self.Activity.text = "活动训练"
+    self.ChatUpper.text = "上层沟通"
+    self.ChatLower.text = "下层沟通"
     self.link = "zh-US"
     }
     
@@ -166,17 +174,21 @@ class Menu:UIViewController{
         
         if(language == "english"){
             language = "english"
-            self.AnitaTitle.text = "Anita's Team"
-            self.AnitaTitle.text = "Anita's Team"
+            self.AnitaTitle.text = "Anita Team"
             self.Joinus.text = "Join Us"
             self.Homepage.text = "Homepage"
             self.Leadership.text = "Leadership"
-            self.Opportunities.text = "Opportunities"
+            self.Opportunities.text = "Opportunity"
             self.YourFuture.text = "Your Future"
             self.Travel.text = "Travel"
             self.Shopping.text = "Shop"
-            self.Setting.text = "Settings"
+            self.Setting.text = "Setting"
             self.Gallery.text = "Gallery"
+            self.Login.text = "Login"
+            self.Activity.text = "Activity"
+            self.ChatUpper.text = "Chat Upper"
+            self.ChatLower.text = "Chat Lower"
+            self.link = "en-US"
         }
         else if(language == "traditional"){
             language = "traditional"
@@ -190,6 +202,11 @@ class Menu:UIViewController{
             self.Shopping.text = "購買商品"
             self.Setting.text = "設定和條款"
             self.Gallery.text = "相片集"
+            self.Login.text = "登入頁面"
+            self.Activity.text = "活動訓練"
+            self.ChatUpper.text = "上層溝通"
+            self.ChatLower.text = "下層溝通"
+            self.link = "zh-US"
         }
         else if(language == "simplified"){
             language = "simplified"
@@ -203,6 +220,11 @@ class Menu:UIViewController{
             self.Shopping.text = "购买商品"
             self.Setting.text = "设定和条款"
             self.Gallery.text = "相片集"
+            self.Login.text = "登入页面"
+            self.Activity.text = "活动训练"
+            self.ChatUpper.text = "上层沟通"
+            self.ChatLower.text = "下层沟通"
+            self.link = "zh-US"
         }
         
     }

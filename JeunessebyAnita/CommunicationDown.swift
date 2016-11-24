@@ -16,6 +16,11 @@ class CommunicationDown:UIViewController{
 
     @IBOutlet weak var communicationboard: UITextView!
     
+    @IBOutlet weak var LowerLevel: UILabel!
+    @IBOutlet weak var Send: UILabel!
+    @IBOutlet weak var Description: UILabel!
+    @IBOutlet weak var Back: UILabel!
+    
     var messages = [String]()
     var time = [String]()
     var loweremail = [String]()
@@ -77,6 +82,30 @@ class CommunicationDown:UIViewController{
     
     override func viewDidLoad() {
         
+        if(language == "english"){
+            language = "english"
+            self.LowerLevel.text = "Lower Level"
+            self.Send.text = "Send"
+            self.Description.text = "User can talk to lower level here"
+            self.Back.text = "Back"
+        }
+        else if(language == "traditional"){
+            language = "traditional"
+            self.LowerLevel.text = "下層溝通"
+            self.Send.text = "發送訊息"
+            self.Description.text = "版主可以和下層溝通"
+            self.Back.text = "回到前頁"
+        }
+        else if(language == "simplified"){
+            language = "simplified"
+            self.LowerLevel.text = "下层沟通"
+            self.Send.text = "发送讯息"
+            self.Description.text = "版主可以和下层沟通"
+            self.Back.text = "回到前页"
+        }
+
+        
+    //Database Access
         var ref = FIRDatabase.database().reference()
         
         ref.queryOrdered(byChild: "Email").queryEqual(toValue: ProfileLogin.loginemail).observe(.childAdded, with: { snapshot in

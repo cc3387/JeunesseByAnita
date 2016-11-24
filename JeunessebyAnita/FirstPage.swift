@@ -28,37 +28,37 @@ class FirstPage:UIViewController{
     //////////////////////////////////////
     @IBAction func English(_ sender: Any) {
         language = "english"
-        self.AnitaTeamLabel.text = "Jeunesse - Anita Team"
+        self.AnitaTeamLabel.text = "Jeunesse-Anita Team"
         self.RefererEmail.text = "Referrer Email : "
         self.StartBrowsing.text = "Start Browsing"
         self.JoinAnitaTeam.text = "Join Anita's Team Now!"
-        self.Alreadymember.text = "Already a Member?"
+        self.Alreadymember.text = "Already app user?"
         self.ToLogin.text = "To Login Page"
-        self.Becomemember.text = "Become a Member!"
+        self.Becomemember.text = "Become app user!"
         self.ToRegister.text = "To Register Page"
     }
     
     @IBAction func Traditional(_ sender: Any) {
         language = "traditional"
-        self.AnitaTeamLabel.text = "婕斯 - Anita 團隊"
+        self.AnitaTeamLabel.text = "婕斯-Anita 團隊"
         self.RefererEmail.text = "介紹人電郵 : "
         self.StartBrowsing.text = "開始瀏覽"
         self.JoinAnitaTeam.text = "立刻加入Anita的團隊!"
-        self.Alreadymember.text = "已經是會員?"
+        self.Alreadymember.text = "已經是版主?"
         self.ToLogin.text = "立刻登入！"
-        self.Becomemember.text = "加入成為會員"
+        self.Becomemember.text = "加入成為版主"
         self.ToRegister.text = "立刻註冊！"
     }
     
     @IBAction func Simplified(_ sender: Any) {
          language = "simplified"
-        self.AnitaTeamLabel.text = "婕斯 - Anita 团队"
+        self.AnitaTeamLabel.text = "婕斯-Anita 团队"
         self.RefererEmail.text = "介绍人电邮 : "
         self.StartBrowsing.text = "开始浏览"
         self.JoinAnitaTeam.text = "立刻加入Anita的团队!"
-        self.Alreadymember.text = "已经是会员?"
+        self.Alreadymember.text = "已经是版主?"
         self.ToLogin.text = "立刻登入！"
-        self.Becomemember.text = "加入成为会员"
+        self.Becomemember.text = "加入成为版主"
         self.ToRegister.text = "立刻注册！"
     }
     
@@ -129,34 +129,34 @@ class FirstPage:UIViewController{
         
         if(language == "english"){
             
-            self.AnitaTeamLabel.text = "Jeunesse - Anita Team"
-            self.RefererEmail.text = "Referrer Email: "
+            self.AnitaTeamLabel.text = "Jeunesse-Anita Team"
+            self.RefererEmail.text = "Referrer Email : "
             self.StartBrowsing.text = "Start Browsing"
             self.JoinAnitaTeam.text = "Join Anita's Team Now!"
-            self.Alreadymember.text = "Already a Member?"
+            self.Alreadymember.text = "Already app user?"
             self.ToLogin.text = "To Login Page"
-            self.Becomemember.text = "Become a Member!"
+            self.Becomemember.text = "Become app user!"
             self.ToRegister.text = "To Register Page"
         }
         else if(language == "traditional"){
             
-            self.AnitaTeamLabel.text = "婕斯 - Anita 團隊"
+            self.AnitaTeamLabel.text = "婕斯-Anita 團隊"
             self.RefererEmail.text = "介紹人電郵: "
             self.StartBrowsing.text = "開始瀏覽"
             self.JoinAnitaTeam.text = "立刻加入Anita的團隊!"
-            self.Alreadymember.text = "已經是會員?"
+            self.Alreadymember.text = "已經是版主?"
             self.ToLogin.text = "立刻登入！"
-            self.Becomemember.text = "加入成為會員"
+            self.Becomemember.text = "加入成為版主"
             self.ToRegister.text = "立刻註冊！"
         }
         else if(language == "simplified"){
-            self.AnitaTeamLabel.text = "婕斯 - Anita 团队"
+            self.AnitaTeamLabel.text = "婕斯-Anita 团队"
             self.RefererEmail.text = "介绍人电邮 : "
             self.StartBrowsing.text = "开始浏览"
             self.JoinAnitaTeam.text = "立刻加入Anita的团队!"
-            self.Alreadymember.text = "已经是会员?"
+            self.Alreadymember.text = "已经是版主?"
             self.ToLogin.text = "立刻登入！"
-            self.Becomemember.text = "加入成为会员"
+            self.Becomemember.text = "加入成为版主"
             self.ToRegister.text = "立刻注册！"
         }
     }
