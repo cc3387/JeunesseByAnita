@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		208628F23290034AB04A4213 /* Pods_JeunessebyAnita.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D5C47C7F77C1F06DA768F3 /* Pods_JeunessebyAnita.framework */; };
 		AA0215571DDBED5100F3CDB5 /* YourFuture.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0215561DDBED5100F3CDB5 /* YourFuture.swift */; };
+		AA2641E01DE917AB000C71AA /* JeunesseRankingEng.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA2641DF1DE917AB000C71AA /* JeunesseRankingEng.jpg */; };
 		AA29999D1DCF8592009BE499 /* ProductPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA29999C1DCF8592009BE499 /* ProductPage.swift */; };
 		AA29999F1DCF8728009BE499 /* InstantlyAgelessFamily_en-US.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29999E1DCF8728009BE499 /* InstantlyAgelessFamily_en-US.png */; };
 		AA2999A11DCF88FE009BE499 /* luminesceFamily_en-US.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2999A01DCF88FE009BE499 /* luminesceFamily_en-US.png */; };
@@ -124,6 +125,7 @@
 		5E9AED2DF483AA7A3EE06C95 /* Pods-JeunessebyAnita.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JeunessebyAnita.release.xcconfig"; path = "Pods/Target Support Files/Pods-JeunessebyAnita/Pods-JeunessebyAnita.release.xcconfig"; sourceTree = "<group>"; };
 		7C18B32F4399DEA6DC7CB6CA /* Pods-JeunessebyAnita.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JeunessebyAnita.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JeunessebyAnita/Pods-JeunessebyAnita.debug.xcconfig"; sourceTree = "<group>"; };
 		AA0215561DDBED5100F3CDB5 /* YourFuture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YourFuture.swift; sourceTree = "<group>"; };
+		AA2641DF1DE917AB000C71AA /* JeunesseRankingEng.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JeunesseRankingEng.jpg; sourceTree = "<group>"; };
 		AA29999C1DCF8592009BE499 /* ProductPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductPage.swift; sourceTree = "<group>"; };
 		AA29999E1DCF8728009BE499 /* InstantlyAgelessFamily_en-US.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InstantlyAgelessFamily_en-US.png"; sourceTree = "<group>"; };
 		AA2999A01DCF88FE009BE499 /* luminesceFamily_en-US.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "luminesceFamily_en-US.png"; sourceTree = "<group>"; };
@@ -379,6 +381,7 @@
 				AA304FA31DD2A7BF003B7A9B /* travel-icon-png-25.png */,
 				AA304FA11DD19444003B7A9B /* running_man-512.png */,
 				AA2F30291DDAD10A00CCE02A /* Jeuness_Ranking.jpg */,
+				AA2641DF1DE917AB000C71AA /* JeunesseRankingEng.jpg */,
 				AA304F9F1DD19190003B7A9B /* alert.png */,
 				AA304F9D1DD19030003B7A9B /* Newspaper-2-icon.png */,
 				AA2999AE1DCFF3D7009BE499 /* m1ndPackage_en-US_4445.png */,
@@ -583,6 +586,7 @@
 				AAF345D51DA554D000C28DF6 /* leader_icon.png in Resources */,
 				AAAA00091DCEA6160076AA82 /* Jeunesse_1024.jpg in Resources */,
 				AA304FB01DD2AD96003B7A9B /* settinggear.png in Resources */,
+				AA2641E01DE917AB000C71AA /* JeunesseRankingEng.jpg in Resources */,
 				AAF345A21DA3D09200C28DF6 /* Assets.xcassets in Resources */,
 				AA7827C91DAA928000F23C7B /* Setting_Icon.png in Resources */,
 				AA304F9E1DD19030003B7A9B /* Newspaper-2-icon.png in Resources */,

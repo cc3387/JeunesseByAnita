@@ -13,6 +13,12 @@ import Firebase
 class EditorMenu:UIViewController{
     
     override func viewDidLoad() {
+    
+        
+        
+        
+        
+        
         
     }
     

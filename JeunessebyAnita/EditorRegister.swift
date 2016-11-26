@@ -12,6 +12,16 @@ import Firebase
 
 class EditorRegister:UIViewController{
     
+    
+    @IBOutlet weak var RegisterTitle: UILabel!
+    @IBOutlet weak var EmailTitle: UILabel!
+    @IBOutlet weak var PasswordTitle: UILabel!
+    @IBOutlet weak var UserTitle: UILabel!
+    @IBOutlet weak var ReferredTitle: UILabel!
+    @IBOutlet weak var BackTitle: UILabel!
+    @IBOutlet weak var RegisterButtonTitle: UILabel!
+    
+    ////////////////////////////////////////
     @IBOutlet weak var Email: UITextField!
     @IBOutlet weak var Password: UITextField!
     @IBOutlet weak var Name: UITextField!
@@ -24,6 +34,39 @@ class EditorRegister:UIViewController{
     
     override func viewDidLoad() {
         
+        ///////////////////////////////// Bilingual Setting Area ////////////////////
+        if(language == "english"){
+            language = "english"
+            self.RegisterTitle.text = "Register"
+            self.EmailTitle.text = "Email"
+            self.PasswordTitle.text = "Password"
+            self.UserTitle.text = "Username"
+            self.ReferredTitle.text = "Referrer Email"
+            self.BackTitle.text = "Back"
+            self.RegisterButtonTitle.text = "Register"
+        }
+        else if(language == "traditional"){
+            language = "traditional"
+            self.RegisterTitle.text = "註冊頁面"
+            self.EmailTitle.text = "電郵"
+            self.PasswordTitle.text = "密碼"
+            self.UserTitle.text = "用戶名"
+            self.ReferredTitle.text = "介紹人電郵"
+            self.BackTitle.text = "回到前頁"
+            self.RegisterButtonTitle.text = "註冊"
+        }
+        else if(language == "simplified"){
+            language = "simplified"
+            self.RegisterTitle.text = "注册页面"
+            self.EmailTitle.text = "电邮"
+            self.PasswordTitle.text = "密码"
+            self.UserTitle.text = "用户名"
+            self.ReferredTitle.text = "介绍人电邮"
+            self.BackTitle.text = "回到前页"
+            self.RegisterButtonTitle.text = "注册"
+        }
+        
+        ////////////////////////////////////////////////////////////////////////////
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
         view.addGestureRecognizer(tap)
     }
@@ -79,21 +122,12 @@ class EditorRegister:UIViewController{
                         self.upper = self.Referral.text!;
                         print("This is first: " + self.upper)
                         
-                        //ref.queryOrdered(byChild: "Email").queryEqual(toValue: self.upper).observe(.childAdded, with: { snapshot in
-                            //if let source = snapshot.value as? [String:AnyObject] {
-                                //let referone = source["Refer"] as! String
-                                //self.upper = referone;
-                                //print("This is second: " + self.upper);
-                                
-                                
                                 var profile = [
                                     "AboutLeader": "",
-                                    "AboutLeadereng": "",
                                     "AccountType": "Write",
                                     "Email": self.Email.text!,
                                     "Joinlink": "",
                                     "Joinus":"",
-                                    "Joinuseng":"",
                                     "Owner": self.Name.text!,
                                     "Phoneid" : phoneid,
                                     "Shoplink": "",
@@ -157,7 +191,18 @@ class EditorRegister:UIViewController{
         loadoriginal()
         }
         else{
-        self.Warning.textColor = UIColor.red
+            if(language == "english"){
+            self.Warning.text = "Must fill in all info"
+            self.Warning.textColor = UIColor.red
+            }
+            else if(language == "traditional"){
+            self.Warning.text = "必須填寫所有資料"
+            self.Warning.textColor = UIColor.red
+            }
+            else if(language == "simplified"){
+            self.Warning.text = "必须填写所有资料"
+            self.Warning.textColor = UIColor.red
+            }
         }
     }
     
@@ -177,7 +222,6 @@ class EditorRegister:UIViewController{
     
     //Calls this function when the tap is recognized.
     func dismissKeyboard() {
-        //Causes the view (or one of its embedded text fields) to resign the first responder status.
         view.endEditing(true)
     }
     

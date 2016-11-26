@@ -148,6 +148,7 @@ class Menu:UIViewController{
                 .observe(.childAdded, with: { snapshot in
                     
                     if let source = snapshot.value as? [String:AnyObject] {
+                        
                         ProfileLogin.shoplink = source["Shoplink"] as! String
                         
                         if(ProfileLogin.shoplink == ""){

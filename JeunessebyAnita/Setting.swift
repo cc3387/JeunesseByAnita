@@ -15,36 +15,75 @@ import MessageUI
 class Setting:UIViewController, MFMailComposeViewControllerDelegate{
     
     
+    @IBOutlet weak var AnitaTeamTitle: UILabel!
+    @IBOutlet weak var ReceiveMessageTitle: UILabel!
+    @IBOutlet weak var UserGuideTitle: UILabel!
+    @IBOutlet weak var PrivacyandTermsTitle: UILabel!
+    @IBOutlet weak var Back: UILabel!
+    @IBOutlet weak var ContactUsTitle: UILabel!
+    var link = "en-US"
+    
+    ////////////////////////////////////////////////////////////////////////////
+    
     @IBOutlet weak var ReceiveMessage: UISwitch!
+    
     var ref = FIRDatabase.database().reference()
     
-    @IBAction func guidlines(_ sender: AnyObject) {
-        if let url = NSURL(string: "https://simplyeffective.jeunesseglobal.com/zh-US/terms-of-service") {
+    ////////////////////////////////////////////////////////////////////////////
+    
+    @IBAction func guideone(_ sender: Any) {
+        
+        var product = "https://simplyeffective.jeunesseglobal.com/" + self.link + "/terms-of-service"
+        
+        if let url = NSURL(string: product) {
             UIApplication.shared.openURL(url as URL)
         }
     }
     
-    @IBAction func guidelinestwo(_ sender: AnyObject) {
+    @IBAction func guidetwo(_ sender: Any) {
         
-        if let url = NSURL(string: "https://simplyeffective.jeunesseglobal.com/zh-US/privacy-policy") {
+        var product = "https://simplyeffective.jeunesseglobal.com/" + self.link + "/privacy-policy"
+        
+        if let url = NSURL(string: product) {
             UIApplication.shared.openURL(url as URL)
         }
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if(language == "english"){
+            self.link = "en-US"
+            self.AnitaTeamTitle.text = "Anita's Jeunesse"
+            self.ReceiveMessageTitle.text = "Messages"
+            self.UserGuideTitle.text = "Terms of Use"
+            self.PrivacyandTermsTitle.text = "Privacy and Terms"
+            self.ContactUsTitle.text = "Contact Us"
+            self.Back.text = "Back"
+        }
+        else if(language == "traditional"){
+            self.link = "zh-US"
+            self.AnitaTeamTitle.text = "Anita 團隊"
+            self.ReceiveMessageTitle.text = "接受訊息"
+            self.UserGuideTitle.text = "使用條款"
+            self.PrivacyandTermsTitle.text = "私隱保密條款"
+            self.ContactUsTitle.text = "聯絡我們"
+            self.Back.text = "回到前頁"
+        }
+        else if(language == "simplified"){
+            self.link = "zh-US"
+            self.AnitaTeamTitle.text = "Anita 团队"
+            self.ReceiveMessageTitle.text = "接受讯息"
+            self.UserGuideTitle.text = "使用条款"
+            self.PrivacyandTermsTitle.text = "私隐保密条款"
+            self.ContactUsTitle.text = "联络我们"
+            self.Back.text = "回到前页"
+        }
+
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
         self.navigationController?.isNavigationBarHidden = true
         self.navigationController?.setNavigationBarHidden(true, animated: false)
         self.view.endEditing(true)
-    }
-    
-    @IBAction func ContactUs(_ sender: UIButton) {
-        let mailComposeViewController = configuredMailComposeViewController()
-        if MFMailComposeViewController.canSendMail() {
-            self.present(mailComposeViewController, animated: true, completion: nil)
-        } else {
-            self.showSendMailErrorAlert()
-        }
     }
     
     
@@ -62,15 +101,13 @@ class Setting:UIViewController, MFMailComposeViewControllerDelegate{
     }
     
     
-    @IBAction func Send_Email(sender: AnyObject) {
-        
+    @IBAction func ContactUs(_ sender: Any) {
         let mailComposeViewController = configuredMailComposeViewController()
         if MFMailComposeViewController.canSendMail() {
             self.present(mailComposeViewController, animated: true, completion: nil)
         } else {
             self.showSendMailErrorAlert()
         }
-        
     }
     
     func configuredMailComposeViewController() -> MFMailComposeViewController {

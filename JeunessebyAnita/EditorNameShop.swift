@@ -22,8 +22,8 @@ class NameShop:UIViewController{
     
     @IBAction func Upload(_ sender: AnyObject) {
         ProfileLogin.name = self.Name.text!
-        ref.child(ProfileLogin.uid).child("Joinlink").setValue("https://" + self.Shop.text!+".jeunesseglobal.com/zh-US")
-        ref.child(ProfileLogin.uid).child("Shoplink").setValue("https://joffice.jeunesseglobal.com/signup.asp?locale=zh-US&siteurl=" + self.Shop.text!)
+        ref.child(ProfileLogin.uid).child("Joinlink").setValue("https://joffice.jeunesseglobal.com/signup.asp?locale=zh-US&siteurl=" + self.Shop.text!)
+        ref.child(ProfileLogin.uid).child("Shoplink").setValue("https://" + self.Shop.text!+".jeunesseglobal.com/zh-US")
         loadoriginal()
     }
     
