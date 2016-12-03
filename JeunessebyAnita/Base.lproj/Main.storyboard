@@ -2565,7 +2565,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cloud-horizon.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="2Fj-eB-egx">
-                                <rect key="frame" x="-12" y="-31" width="781" height="848"/>
+                                <rect key="frame" x="-12" y="-31" width="781" height="900"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jeunesse-logo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mdq-7v-gH3">
@@ -2825,7 +2825,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cloud-horizon.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qOx-3Y-wNr">
-                                <rect key="frame" x="-24" y="-31" width="849" height="729"/>
+                                <rect key="frame" x="-174" y="-329" width="1018" height="1358"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jeunesse-logo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="3kY-to-ehD">
@@ -2923,12 +2923,12 @@
         <image name="travel-icon-png-25.png" width="499" height="498"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="V1D-zN-6vt"/>
+        <segue reference="GTU-2D-qdT"/>
         <segue reference="lHv-oH-TZo"/>
         <segue reference="Pvc-Zk-1IY"/>
         <segue reference="oPY-Pw-n7G"/>
+        <segue reference="P86-hy-Wzq"/>
         <segue reference="Nc2-qq-Z5l"/>
         <segue reference="IUx-Gg-gl9"/>
-        <segue reference="C2D-sg-ULQ"/>
     </inferredMetricsTieBreakers>
 </document>
