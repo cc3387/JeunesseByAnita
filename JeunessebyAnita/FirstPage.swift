@@ -10,8 +10,9 @@ import Foundation
 import Batch
 import Firebase
 
-class FirstPage:UIViewController{
+class FirstPage:UIViewController,UIPickerViewDataSource, UIPickerViewDelegate{
     
+    @IBOutlet weak var myPicker: UIPickerView!
     @IBOutlet weak var ReferralWarning: UILabel!
     @IBOutlet weak var Referral: UITextField!
     
@@ -24,6 +25,8 @@ class FirstPage:UIViewController{
     @IBOutlet weak var Becomemember: UILabel!
     @IBOutlet weak var ToRegister: UILabel!
     @IBOutlet weak var JoinAnitaTeam: UILabel!
+    @IBOutlet weak var Find_Friends: UILabel!
+    
     
     //////////////////////////////////////
     @IBAction func English(_ sender: Any) {
@@ -36,6 +39,7 @@ class FirstPage:UIViewController{
         self.ToLogin.text = "To Login Page"
         self.Becomemember.text = "Become app user!"
         self.ToRegister.text = "To Register Page"
+        self.Find_Friends.text = "Find Friends"
     }
     
     @IBAction func Traditional(_ sender: Any) {
@@ -48,6 +52,7 @@ class FirstPage:UIViewController{
         self.ToLogin.text = "立刻登入！"
         self.Becomemember.text = "加入成為版主"
         self.ToRegister.text = "立刻註冊！"
+        self.Find_Friends.text = "尋找朋友"
     }
     
     @IBAction func Simplified(_ sender: Any) {
@@ -60,6 +65,7 @@ class FirstPage:UIViewController{
         self.ToLogin.text = "立刻登入！"
         self.Becomemember.text = "加入成为版主"
         self.ToRegister.text = "立刻注册！"
+        self.Find_Friends.text = "寻找朋友"
     }
     
     
@@ -81,7 +87,6 @@ class FirstPage:UIViewController{
         
         ProfileLogin.loginemail = self.Referral.text!
         
-        
         if(self.Referral.text != ""){
         var ref = FIRDatabase.database().reference()
         
@@ -94,6 +99,7 @@ class FirstPage:UIViewController{
                 ProfileLogin.foreword = source["Foreword"] as! String!
                 ProfileLogin.refer = source["Refer"] as! String!
                 ProfileLogin.upper = source["Upper"] as! String!
+                ProfileLogin.shop = source["Shop"] as! String!
                 
             }
         })
@@ -114,16 +120,17 @@ class FirstPage:UIViewController{
             self.ReferralWarning.textColor = UIColor.red
             }
             else if(language == "simplified"){
-                self.ReferralWarning.text = "請输入电邮"
-                self.ReferralWarning.textColor = UIColor.red
+            self.ReferralWarning.text = "請输入电邮"
+            self.ReferralWarning.textColor = UIColor.red
             }
         }
         
     }
     
+    var pickerData = [friend_email_list]
+    
     override func viewDidLoad() {
         
-        self.Referral.text = "luianita@yahoo.com"
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
         view.addGestureRecognizer(tap)
         
@@ -137,6 +144,7 @@ class FirstPage:UIViewController{
             self.ToLogin.text = "To Login Page"
             self.Becomemember.text = "Become app user!"
             self.ToRegister.text = "To Register Page"
+            self.Find_Friends.text = "Find Friends"
         }
         else if(language == "traditional"){
             
@@ -148,6 +156,7 @@ class FirstPage:UIViewController{
             self.ToLogin.text = "立刻登入！"
             self.Becomemember.text = "加入成為版主"
             self.ToRegister.text = "立刻註冊！"
+            self.Find_Friends.text = "尋找朋友"
         }
         else if(language == "simplified"){
             self.AnitaTeamLabel.text = "婕斯-Anita 团队"
@@ -158,7 +167,38 @@ class FirstPage:UIViewController{
             self.ToLogin.text = "立刻登入！"
             self.Becomemember.text = "加入成为版主"
             self.ToRegister.text = "立刻注册！"
+            self.Find_Friends.text = "寻找朋友"
         }
+        
+        myPicker.delegate = self;
+        myPicker.dataSource = self;
+        
+    }
+    
+    
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return pickerData.count
+    }
+    
+    
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return pickerData[component].count
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String! {
+        return pickerData[component][row]
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusing view: UIView!) -> UIView
+    {
+        let pickerLabel = UILabel()
+        pickerLabel.textColor = UIColor.white
+        pickerLabel.text = pickerData[component][row]
+        self.Referral.text = pickerData[component][row]
+        pickerLabel.font = UIFont(name: pickerLabel.font.fontName, size: 14)
+        //pickerLabel.font = UIFont(name: "System Thin", size: 10) // In this use your custom font
+        pickerLabel.textAlignment = NSTextAlignment.center
+        return pickerLabel
     }
     
     func loadDestinationVC(){
@@ -188,6 +228,7 @@ struct ProfileLogin{
     static var refer = "";
     static var name = "Anita";
     static var upper = "";
+    static var shop = "";
 };
 
 struct Registergroup{

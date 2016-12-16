@@ -78,7 +78,11 @@ class ProductPage:UIViewController{
     
     @IBAction func MoneND(_ sender: AnyObject) {
         
-        let product = "https://simplyeffective.jeunesseglobal.com/"+self.link+"/m1nd"
+        if(ProfileLogin.shop == ""){
+        ProfileLogin.shop = "simplyeffective"
+        }
+        
+        let product = "https://"+ProfileLogin.shop+".jeunesseglobal.com/"+self.link+"/m1nd"
         
         if let url = NSURL(string: product) {
             UIApplication.shared.openURL(url as URL)
@@ -87,7 +91,11 @@ class ProductPage:UIViewController{
     
     @IBAction func ZEN(_ sender: AnyObject) {
         
-        let product = "https://simplyeffective.jeunesseglobal.com/"+self.link+"/zen/project"
+        if(ProfileLogin.shop == ""){
+        ProfileLogin.shop = "simplyeffective"
+        }
+        
+        let product = "https://"+ProfileLogin.shop+".jeunesseglobal.com/"+self.link+"/zen/project"
         
         if let url = NSURL(string: product) {
             UIApplication.shared.openURL(url as URL)
@@ -96,7 +104,11 @@ class ProductPage:UIViewController{
     
     @IBAction func FINITI(_ sender: AnyObject) {
         
-        let product = "https://simplyeffective.jeunesseglobal.com/"+self.link+"/finiti"
+        if(ProfileLogin.shop == ""){
+        ProfileLogin.shop = "simplyeffective"
+        }
+        
+        let product = "https://"+ProfileLogin.shop+".jeunesseglobal.com/"+self.link+"/finiti"
         
         if let url = NSURL(string: product) {
             UIApplication.shared.openURL(url as URL)
@@ -105,7 +117,11 @@ class ProductPage:UIViewController{
     
     @IBAction func Reserve(_ sender: AnyObject) {
         
-        let product = "https://simplyeffective.jeunesseglobal.com/"+self.link+"/reserve"
+        if(ProfileLogin.shop == ""){
+        ProfileLogin.shop = "simplyeffective"
+        }
+        
+        let product = "https://"+ProfileLogin.shop+".jeunesseglobal.com/"+self.link+"/reserve"
         
         if let url = NSURL(string: product) {
             UIApplication.shared.openURL(url as URL)
@@ -114,7 +130,11 @@ class ProductPage:UIViewController{
     
     @IBAction func AMPM(_ sender: AnyObject) {
         
-        let product = "https://simplyeffective.jeunesseglobal.com/"+self.link+"/am/pmessentials"
+        if(ProfileLogin.shop == ""){
+        ProfileLogin.shop = "simplyeffective"
+        }
+        
+        let product = "https://"+ProfileLogin.shop+".jeunesseglobal.com/"+self.link+"/am/pmessentials"
         
         if let url = NSURL(string: product) {
             UIApplication.shared.openURL(url as URL)
@@ -123,7 +143,11 @@ class ProductPage:UIViewController{
     
     @IBAction func Luminecense(_ sender: AnyObject) {
         
-        let product = "https://simplyeffective.jeunesseglobal.com/"+self.link+"/luminesce"
+        if(ProfileLogin.shop == ""){
+        ProfileLogin.shop = "simplyeffective"
+        }
+        
+        let product = "https://"+ProfileLogin.shop+".jeunesseglobal.com/"+self.link+"/luminesce"
         
         if let url = NSURL(string: product) {
             UIApplication.shared.openURL(url as URL)
@@ -133,7 +157,11 @@ class ProductPage:UIViewController{
     
     @IBAction func InstantAgeless(_ sender: AnyObject) {
         
-        let product = "https://simplyeffective.jeunesseglobal.com/"+self.link+"/instantly-ageless"
+        if(ProfileLogin.shop == ""){
+            ProfileLogin.shop = "simplyeffective"
+        }
+        
+        let product = "https://"+ProfileLogin.shop+".jeunesseglobal.com/"+self.link+"/instantly-ageless"
         
         if let url = NSURL(string: product) {
             UIApplication.shared.openURL(url as URL)

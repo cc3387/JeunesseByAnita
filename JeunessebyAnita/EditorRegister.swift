@@ -138,8 +138,16 @@ class EditorRegister:UIViewController{
                                     "notification": "1",
                                     "Refer": self.Referral.text!,
                                     "Upper": self.upper,
-                                    "Lower": ""
+                                    "Lower": "",
+                                    "Shop": ""
                                 ];
+                        
+                                var Emaillist = [
+                                    "Email": self.Email.text!,
+                                    "Name": self.Name.text!,
+                                    "uid": self.uid
+                                ];
+                        
                         
                                 var lowerupload = [
                                     "Lower": Registergroup.loginemail
@@ -155,6 +163,9 @@ class EditorRegister:UIViewController{
                         
                                 //Setting Value in database
                                 self.ref.child(byAppendingPath: self.uid as String).setValue(profile)
+                        
+                                self.ref.child("EmailList").child(byAppendingPath: self.uid as String).setValue(Emaillist)
+                        
                         //}
                     //})
                     }
