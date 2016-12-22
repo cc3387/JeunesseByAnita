@@ -173,6 +173,7 @@ class FirstPage:UIViewController,UIPickerViewDataSource, UIPickerViewDelegate{
         myPicker.delegate = self;
         myPicker.dataSource = self;
         
+        updateEmail();
     }
     
     
@@ -194,7 +195,6 @@ class FirstPage:UIViewController,UIPickerViewDataSource, UIPickerViewDelegate{
         let pickerLabel = UILabel()
         pickerLabel.textColor = UIColor.white
         pickerLabel.text = pickerData[component][row]
-        self.Referral.text = pickerData[component][row]
         pickerLabel.font = UIFont(name: pickerLabel.font.fontName, size: 14)
         //pickerLabel.font = UIFont(name: "System Thin", size: 10) // In this use your custom font
         pickerLabel.textAlignment = NSTextAlignment.center
@@ -211,6 +211,20 @@ class FirstPage:UIViewController,UIPickerViewDataSource, UIPickerViewDelegate{
         view.endEditing(true)
     }
     
+    ///////////////////////// Update Email ///////////////////////////////
+    enum PickerComponent:Int{
+        case email = 0
+    }
+    
+    func updateEmail(){
+        let sizeComponent = PickerComponent.email.rawValue
+        let size = pickerData[sizeComponent][myPicker.selectedRow(inComponent: sizeComponent)]
+        self.Referral.text = size;
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        updateEmail();
+    }
     
 };
 

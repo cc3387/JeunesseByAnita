@@ -140,19 +140,19 @@ class SectionsData {
         
         if(language == "english"){
         let frontword = Section(title: ProfileLogin.name + " - Foreword", objects: [ProfileLogin.foreword])
-        let news = Section(title: "Anita's Team" + " -- News", objects: [""])
+        let news = Section(title: "Team" + " -- News Update", objects: [""])
         sectionsArray.append(frontword)
         sectionsArray.append(news)
         }
         else if(language == "traditional"){
         let frontword = Section(title: ProfileLogin.name + " - 前言", objects: [ProfileLogin.foreword])
-        let news = Section(title: "Anita 團隊" + " --最新消息", objects: [""])
+        let news = Section(title: "團隊" + " --最新消息", objects: [""])
         sectionsArray.append(frontword)
         sectionsArray.append(news)
         }
         else if(language == "simplified"){
         let frontword = Section(title: ProfileLogin.name + " - 前言", objects: [ProfileLogin.foreword])
-        let news = Section(title: "Anita 团队" + " --最新消息", objects: [""])
+        let news = Section(title: "团队" + " --最新消息", objects: [""])
         sectionsArray.append(frontword)
         sectionsArray.append(news)
         }

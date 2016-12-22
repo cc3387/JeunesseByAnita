@@ -53,6 +53,7 @@ class Login:UIViewController{
                     ProfileLogin.name = source["Owner"] as! String
                     ProfileLogin.refer = source["Refer"] as! String
                     ProfileLogin.upper = source["Upper"] as! String
+                    ProfileLogin.shop = source["Shop"] as! String
                     
                     if(self.accounttype == "Write"){
                         FIRAuth.auth()!.signIn(withEmail: self.Email.text!, password: self.Password.text!) {

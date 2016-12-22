@@ -100,7 +100,7 @@ class Intro:UIViewController{
         
         //Appending Emails
         var ref = FIRDatabase.database().reference()
-        ref.child("EmailList").queryLimited(toLast: 10).observe(.childAdded, with:{ snapshot in
+        ref.child("EmailList").queryLimited(toLast: 100).observe(.childAdded, with:{ snapshot in
             if let source = snapshot.value as? [String:AnyObject] {
                friend_email_list.append(source["Email"] as! String)
             }

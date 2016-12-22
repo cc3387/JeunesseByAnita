@@ -125,7 +125,11 @@ class Menu:UIViewController{
     
     @IBAction func Travel(_ sender: AnyObject) {
         
-        var product = "https://simplyeffective.jeunesseglobal.com/"+self.link+"/lifestyle-rewards"
+        if(ProfileLogin.shop == ""){
+            ProfileLogin.shop = "simplyeffective"
+        }
+        
+        let product = "https://"+ProfileLogin.shop+".jeunesseglobal.com/"+self.link+"/lifestyle-rewards"
         
         if let url = NSURL(string: product) {
             UIApplication.shared.openURL(url as URL)
