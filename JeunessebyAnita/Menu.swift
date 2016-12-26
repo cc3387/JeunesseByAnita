@@ -176,7 +176,7 @@ class Menu:UIViewController{
     }
     
     override func viewDidLoad() {
-        
+               
         if(language == "english"){
             language = "english"
             self.AnitaTitle.text = "Anita Team"

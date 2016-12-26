@@ -174,6 +174,10 @@ class FirstPage:UIViewController,UIPickerViewDataSource, UIPickerViewDelegate{
         myPicker.dataSource = self;
         
         updateEmail();
+        
+        if(start == 0){
+        self.Referral.text = "luianita@yahoo.com"
+        }
     }
     
     

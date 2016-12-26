@@ -112,4 +112,4 @@ class Intro:UIViewController{
 //Language
 var language = "english"
 var friend_email_list = [String]()
-
+var start = 0
