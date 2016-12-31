@@ -82,7 +82,7 @@ class Login:UIViewController{
                                     "phoneid": ProfileLogin.phoneid,
                                     "uid": ProfileLogin.uid
                                 ]
-                                self.ref.child("dygW8oXUlSQ1OvZ1nEOZ6RJVAJR2").child("Contacts").child(ProfileLogin.uid + "_contact").setValue(contactarr)
+                                self.ref.child("76VnqDdqWiMqiNMlVzp3hMAABma2").child("Contacts").child(ProfileLogin.uid + "_contact").setValue(contactarr)
                                 
                                 //Load to next storypage
                                 self.loadDestinationVC();
