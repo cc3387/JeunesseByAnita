@@ -40,11 +40,11 @@
 		AA400AF11DAC2F0600B9E2C7 /* Menutwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA400AF01DAC2F0600B9E2C7 /* Menutwo.swift */; };
 		AA5D49871DADF71F00636299 /* EditorNameShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5D49861DADF71F00636299 /* EditorNameShop.swift */; };
 		AA5D49891DADFD1600636299 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5D49881DADFD1600636299 /* Setting.swift */; };
+		AA6D23E91E1989D5008D1D8F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA6D23E81E1989D5008D1D8F /* GoogleService-Info.plist */; };
 		AA78277B1DA71E7900F23C7B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA78277A1DA71E7900F23C7B /* StoreKit.framework */; };
 		AA78277D1DA7386300F23C7B /* dollaricon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA78277C1DA7386300F23C7B /* dollaricon.png */; };
 		AA78278B1DA8610700F23C7B /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA78278A1DA8610700F23C7B /* Purchase.swift */; };
 		AA78278F1DA8971D00F23C7B /* future_icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA78278E1DA8971D00F23C7B /* future_icon.jpg */; };
-		AA7827911DA921D900F23C7B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA7827901DA921D900F23C7B /* GoogleService-Info.plist */; };
 		AA7827931DA9232D00F23C7B /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7827921DA9232D00F23C7B /* Menu.swift */; };
 		AA7827951DA9281900F23C7B /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7827941DA9281900F23C7B /* libsqlite3.0.tbd */; };
 		AA7827971DA9282700F23C7B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7827961DA9282700F23C7B /* WebKit.framework */; };
@@ -157,15 +157,14 @@
 		AA400AF01DAC2F0600B9E2C7 /* Menutwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menutwo.swift; sourceTree = "<group>"; };
 		AA5D49861DADF71F00636299 /* EditorNameShop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorNameShop.swift; sourceTree = "<group>"; };
 		AA5D49881DADFD1600636299 /* Setting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		AA6D23E81E1989D5008D1D8F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AA78277A1DA71E7900F23C7B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		AA78277C1DA7386300F23C7B /* dollaricon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dollaricon.png; sourceTree = "<group>"; };
 		AA78278A1DA8610700F23C7B /* Purchase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Purchase.swift; sourceTree = "<group>"; };
 		AA78278E1DA8971D00F23C7B /* future_icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = future_icon.jpg; sourceTree = "<group>"; };
-		AA7827901DA921D900F23C7B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AA7827921DA9232D00F23C7B /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		AA7827941DA9281900F23C7B /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		AA7827961DA9282700F23C7B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		AA7827981DA9293900F23C7B /* JeunessebyAnita.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JeunessebyAnita.entitlements; sourceTree = "<group>"; };
 		AA7827991DA92A7900F23C7B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		AA78279B1DA92A8400F23C7B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		AA78279D1DA92A8E00F23C7B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -348,7 +347,6 @@
 			isa = PBXGroup;
 			children = (
 				AA7827BB1DA948B500F23C7B /* EditorGroup */,
-				AA7827981DA9293900F23C7B /* JeunessebyAnita.entitlements */,
 				AAF3459A1DA3D09200C28DF6 /* AppDelegate.swift */,
 				AA7827C41DAA7D5A00F23C7B /* AboutLeader.swift */,
 				AA2BD6CF1DBC478900E8ED97 /* CommunicationUp.swift */,
@@ -372,7 +370,7 @@
 				AAF345A11DA3D09200C28DF6 /* Assets.xcassets */,
 				AAF345A31DA3D09200C28DF6 /* LaunchScreen.storyboard */,
 				AAF345A61DA3D09200C28DF6 /* Info.plist */,
-				AA7827901DA921D900F23C7B /* GoogleService-Info.plist */,
+				AA6D23E81E1989D5008D1D8F /* GoogleService-Info.plist */,
 				AA304FB51DD2B9B4003B7A9B /* agreement.png */,
 				AA304FB11DD2B851003B7A9B /* camerayellow.png */,
 				AA304FAF1DD2AD96003B7A9B /* settinggear.png */,
@@ -560,7 +558,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA304FA61DD2A9F3003B7A9B /* UpRight2Blue.png in Resources */,
-				AA7827911DA921D900F23C7B /* GoogleService-Info.plist in Resources */,
 				AAF345CB1DA3D2AB00C28DF6 /* Ask_30x30.png in Resources */,
 				AAAA001B1DCEFE1A0076AA82 /* generationyoung_slide.jpg in Resources */,
 				AA2999A71DCFE7C0009BE499 /* AMPMEssentialsFamily_en-US.png in Resources */,
@@ -601,6 +598,7 @@
 				AA2999A11DCF88FE009BE499 /* luminesceFamily_en-US.png in Resources */,
 				AA2999AF1DCFF3D7009BE499 /* m1ndPackage_en-US_4445.png in Resources */,
 				AA2999A31DCFC981009BE499 /* arrow-graph-up-right.png in Resources */,
+				AA6D23E91E1989D5008D1D8F /* GoogleService-Info.plist in Resources */,
 				AAAA00171DCEDF550076AA82 /* instantly-ageless.jpg in Resources */,
 				AAAA000D1DCECABC0076AA82 /* Jeunesse_logo_3.jpg in Resources */,
 				AA304FB21DD2B851003B7A9B /* camerayellow.png in Resources */,
@@ -860,7 +858,7 @@
 				CODE_SIGN_ENTITLEMENTS = JeunessebyAnita/JeunessebyAnita.entitlements;
 				DEVELOPMENT_TEAM = 7PK4W84Q3C;
 				INFOPLIST_FILE = JeunessebyAnita/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Uni-clem.JeunessebyAnita";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -878,7 +876,7 @@
 				CODE_SIGN_ENTITLEMENTS = JeunessebyAnita/JeunessebyAnita.entitlements;
 				DEVELOPMENT_TEAM = 7PK4W84Q3C;
 				INFOPLIST_FILE = JeunessebyAnita/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Uni-clem.JeunessebyAnita";
 				PRODUCT_NAME = "$(TARGET_NAME)";

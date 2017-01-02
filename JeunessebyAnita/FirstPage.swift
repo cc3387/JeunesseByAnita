@@ -197,7 +197,7 @@ class FirstPage:UIViewController,UIPickerViewDataSource, UIPickerViewDelegate{
     func pickerView(_ pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusing view: UIView!) -> UIView
     {
         let pickerLabel = UILabel()
-        pickerLabel.textColor = UIColor.white
+        pickerLabel.textColor = UIColor.red
         pickerLabel.text = pickerData[component][row]
         pickerLabel.font = UIFont(name: pickerLabel.font.fontName, size: 14)
         //pickerLabel.font = UIFont(name: "System Thin", size: 10) // In this use your custom font

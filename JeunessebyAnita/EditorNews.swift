@@ -60,7 +60,7 @@ class EditorNews:UIViewController{
          if(self.News.text! != "" && ProfileLogin.loginemail == "luianita@yahoo.com"){
             
          //Write on your own board
-         self.ref.child("dygW8oXUlSQ1OvZ1nEOZ6RJVAJR2").child("Messages").childByAutoId().setValue(message)
+         self.ref.child("N2e5r5qWAkV4fAKWbyrJjZkAWs62").child("Messages").childByAutoId().setValue(message)
          self.UploadSuccess.textColor = UIColor.green
          self.News.text = ""
             
