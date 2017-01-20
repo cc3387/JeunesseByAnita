@@ -180,7 +180,7 @@ class EditorRegister:UIViewController{
                 var userref = self.ref.child("friends")
                 
                 //Setting contacts at Anita and referred contacts
-                self.ref.child("N2e5r5qWAkV4fAKWbyrJjZkAWs62").child("Contacts").child(self.uid + "_contact").setValue(contactarr)
+                self.ref.child("KicIzFMufbUkYGn2gtpeli8cvvF2").child("Contacts").child(self.uid + "_contact").setValue(contactarr)
                 
                 if(self.Referral.text! != "luianita@yahoo.com"){
                 self.ref.queryOrdered(byChild: "Email").queryEqual(toValue: self.Referral.text!)

@@ -101,8 +101,8 @@ class IAPurchaceViewController: UIViewController, UITableViewDelegate, UITableVi
         
         //Change to Subtitle
         let product = productsArray[indexPath.row]
-        cell.textLabel?.text = product?.localizedTitle
-        cell.detailTextLabel?.text = "$" + (product?.price.stringValue)!
+        cell.textLabel?.text = (product?.localizedTitle)! + " Monthly Subscription"
+        cell.detailTextLabel?.text = "$" + (product?.price.stringValue)! + " per month (renew monthly)"
         return cell
     }
     
@@ -119,7 +119,7 @@ class IAPurchaceViewController: UIViewController, UITableViewDelegate, UITableVi
             return
         }
         
-        let actionSheetController = UIAlertController(title: "加入婕斯-Anita团队", message: "立刻购买", preferredStyle: UIAlertControllerStyle.actionSheet)
+        let actionSheetController = UIAlertController(title: "Join Jeunesse Anita Team, 加入婕斯-Anita团队, $0.99 per month/Monthly Renewal (每月$0.99美金) ", message: "Join Now, $0.99 per month/Monthly Renewal, 立刻购买 - 每月$0.99美金", preferredStyle: UIAlertControllerStyle.actionSheet)
         
         //Buy Action
         let buyAction = UIAlertAction(title: "Buy", style: UIAlertActionStyle.default) { (action) -> Void in

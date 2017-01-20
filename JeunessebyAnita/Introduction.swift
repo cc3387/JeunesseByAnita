@@ -75,6 +75,19 @@ class Intro:UIViewController{
 
     }
     
+    
+    @IBAction func StartBrowsing(_ sender: Any) {
+    
+        if(friend_email_list.isEmpty){
+            //Do Nothing
+        }
+        else{
+            loadDestinationVC()
+        }
+    
+    }
+    
+    
     override func viewDidLoad() {
         
         friend_email_list.removeAll()
@@ -100,14 +113,21 @@ class Intro:UIViewController{
         
         //Appending Emails
         var ref = FIRDatabase.database().reference()
-        ref.child("EmailList").queryLimited(toLast: 100).observe(.childAdded, with:{ snapshot in
+        ref.child("EmailList").queryLimited(toLast: 1000).observe(.childAdded, with:{ snapshot in
             if let source = snapshot.value as? [String:AnyObject] {
                friend_email_list.append(source["Email"] as! String)
             }
         })
     }
-
+    
+    
+    func loadDestinationVC(){
+        self.performSegue(withIdentifier: "startbrowsing", sender: nil)
+    }
 };
+
+
+
 
 //Language
 var language = "english"
