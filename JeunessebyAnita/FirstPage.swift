@@ -254,4 +254,8 @@ struct Registergroup{
     static var password = "";
     static var registername = "";
     static var finalupper = "";
+    static var uid = "";
+    static var refer = "";
 }
+
+var Purchase = 0;

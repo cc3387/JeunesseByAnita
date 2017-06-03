@@ -80,6 +80,7 @@ class Intro:UIViewController{
     
         if(friend_email_list.isEmpty){
             //Do Nothing
+            print("Firebase not working")
         }
         else{
             loadDestinationVC()
@@ -113,9 +114,10 @@ class Intro:UIViewController{
         
         //Appending Emails
         var ref = FIRDatabase.database().reference()
-        ref.child("EmailList").queryLimited(toLast: 1000).observe(.childAdded, with:{ snapshot in
+        ref.child("EmailList").queryLimited(toLast: 100).observe(.childAdded, with:{ snapshot in
             if let source = snapshot.value as? [String:AnyObject] {
                friend_email_list.append(source["Email"] as! String)
+               print("friendlist added")
             }
         })
     }
@@ -133,3 +135,4 @@ class Intro:UIViewController{
 var language = "english"
 var friend_email_list = [String]()
 var start = 0
+var purchase = 0

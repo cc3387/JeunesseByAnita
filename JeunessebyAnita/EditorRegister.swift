@@ -129,7 +129,7 @@ class EditorRegister:UIViewController{
                                     "Joinlink": "",
                                     "Joinus":"",
                                     "Owner": self.Name.text!,
-                                    "PhonPeid" : phoneid,
+                                    "Phoneid" : phoneid,
                                     "Shoplink": "",
                                     "Foreword": "",
                                     "Forewordeng":"",
@@ -180,7 +180,7 @@ class EditorRegister:UIViewController{
                 var userref = self.ref.child("friends")
                 
                 //Setting contacts at Anita and referred contacts
-                self.ref.child("KicIzFMufbUkYGn2gtpeli8cvvF2").child("Contacts").child(self.uid + "_contact").setValue(contactarr)
+                self.ref.child("1SLYJI0Liahl976GmjExeVpceEt2").child("Contacts").child(self.uid + "_contact").setValue(contactarr)
                 
                 if(self.Referral.text! != "luianita@yahoo.com"){
                 self.ref.queryOrdered(byChild: "Email").queryEqual(toValue: self.Referral.text!)

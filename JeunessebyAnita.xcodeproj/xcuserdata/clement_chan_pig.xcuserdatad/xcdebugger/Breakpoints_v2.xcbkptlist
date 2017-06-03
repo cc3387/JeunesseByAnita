@@ -50,7 +50,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JeunessebyAnita/Purchase.swift"
@@ -70,29 +70,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JeunessebyAnita/Purchase.swift"
-            timestampString = "498628748.097949"
+            timestampString = "506839500.421278"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "127"
-            endingLineNumber = "127"
-            landmarkName = "showActions()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "JeunessebyAnita/Purchase.swift"
-            timestampString = "498628748.097949"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "149"
-            endingLineNumber = "149"
-            landmarkName = "paymentQueue(queue:updatedTransactions:)"
-            landmarkType = "7">
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "IAPurchaceViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -102,12 +86,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JeunessebyAnita/Purchase.swift"
-            timestampString = "498628748.097949"
+            timestampString = "506839500.421278"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "152"
-            endingLineNumber = "152"
-            landmarkName = "paymentQueue(queue:updatedTransactions:)"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
+            landmarkName = "showActions()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
