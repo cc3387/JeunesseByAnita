@@ -85,6 +85,8 @@
 		AAA5E3BD1EE2753B007B9892 /* NV_SinglePrimer-Cart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAA5E3BB1EE2753B007B9892 /* NV_SinglePrimer-Cart.jpg */; };
 		AAA5E3BF1EE2E8EB007B9892 /* jeunesse-nv-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AAA5E3BE1EE2E8EB007B9892 /* jeunesse-nv-logo.png */; };
 		AAA5E3C11EE2EDAA007B9892 /* nevoMainLogo_zh-US.png in Resources */ = {isa = PBXBuildFile; fileRef = AAA5E3C01EE2EDAA007B9892 /* nevoMainLogo_zh-US.png */; };
+		AAA5E3C31EE3A6E8007B9892 /* nevoCansSmall_en-US.png in Resources */ = {isa = PBXBuildFile; fileRef = AAA5E3C21EE3A6E7007B9892 /* nevoCansSmall_en-US.png */; };
+		AAA5E3C51EE3A794007B9892 /* NevoDrinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5E3C41EE3A794007B9892 /* NevoDrinks.swift */; };
 		AAAA00091DCEA6160076AA82 /* Jeunesse_1024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAAA00081DCEA6150076AA82 /* Jeunesse_1024.jpg */; };
 		AAAA000B1DCEC9900076AA82 /* Jeunesse_Logo_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAAA000A1DCEC98F0076AA82 /* Jeunesse_Logo_2.jpg */; };
 		AAAA000D1DCECABC0076AA82 /* Jeunesse_logo_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAAA000C1DCECABC0076AA82 /* Jeunesse_logo_3.jpg */; };
@@ -213,6 +215,8 @@
 		AAA5E3BB1EE2753B007B9892 /* NV_SinglePrimer-Cart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "NV_SinglePrimer-Cart.jpg"; sourceTree = "<group>"; };
 		AAA5E3BE1EE2E8EB007B9892 /* jeunesse-nv-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jeunesse-nv-logo.png"; sourceTree = "<group>"; };
 		AAA5E3C01EE2EDAA007B9892 /* nevoMainLogo_zh-US.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nevoMainLogo_zh-US.png"; sourceTree = "<group>"; };
+		AAA5E3C21EE3A6E7007B9892 /* nevoCansSmall_en-US.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nevoCansSmall_en-US.png"; sourceTree = "<group>"; };
+		AAA5E3C41EE3A794007B9892 /* NevoDrinks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NevoDrinks.swift; sourceTree = "<group>"; };
 		AAAA00081DCEA6150076AA82 /* Jeunesse_1024.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jeunesse_1024.jpg; sourceTree = "<group>"; };
 		AAAA000A1DCEC98F0076AA82 /* Jeunesse_Logo_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jeunesse_Logo_2.jpg; sourceTree = "<group>"; };
 		AAAA000C1DCECABC0076AA82 /* Jeunesse_logo_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jeunesse_logo_3.jpg; sourceTree = "<group>"; };
@@ -346,6 +350,7 @@
 			isa = PBXGroup;
 			children = (
 				AAA5E3B81EE26C59007B9892 /* BeTheEnvy.swift */,
+				AAA5E3C41EE3A794007B9892 /* NevoDrinks.swift */,
 			);
 			name = ProductPages;
 			sourceTree = "<group>";
@@ -403,6 +408,7 @@
 				AAF345A31DA3D09200C28DF6 /* LaunchScreen.storyboard */,
 				AAF345A61DA3D09200C28DF6 /* Info.plist */,
 				AA63C66D1E35DBE700179D06 /* GoogleService-Info.plist */,
+				AAA5E3C21EE3A6E7007B9892 /* nevoCansSmall_en-US.png */,
 				AAA5E3BA1EE2753B007B9892 /* NV_SingleBronzer-Cart.jpg */,
 				AAA5E3C01EE2EDAA007B9892 /* nevoMainLogo_zh-US.png */,
 				AAA5E3BB1EE2753B007B9892 /* NV_SinglePrimer-Cart.jpg */,
@@ -651,6 +657,7 @@
 				AAAA00171DCEDF550076AA82 /* instantly-ageless.jpg in Resources */,
 				AAAA000D1DCECABC0076AA82 /* Jeunesse_logo_3.jpg in Resources */,
 				AAA5E3B31EE25991007B9892 /* jeunesse-nv-3D-cans-angle3.png in Resources */,
+				AAA5E3C31EE3A6E8007B9892 /* nevoCansSmall_en-US.png in Resources */,
 				AA304FB21DD2B851003B7A9B /* camerayellow.png in Resources */,
 				AA7827C11DAA7B2300F23C7B /* touring_icon.png in Resources */,
 				AAF345A01DA3D09200C28DF6 /* Main.storyboard in Resources */,
@@ -755,6 +762,7 @@
 				AAA5E3AE1EE24A97007B9892 /* ProductNew.swift in Sources */,
 				AA0215571DDBED5100F3CDB5 /* YourFuture.swift in Sources */,
 				AA5D49891DADFD1600636299 /* Setting.swift in Sources */,
+				AAA5E3C51EE3A794007B9892 /* NevoDrinks.swift in Sources */,
 				AA400AEB1DAB2E8800B9E2C7 /* EditorRegister.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1959,7 +1959,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NV - Be The ENVY 2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a2p-qD-C8G">
-                                <rect key="frame" x="83" y="33" width="210" height="21"/>
+                                <rect key="frame" x="108" y="33" width="210" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -2055,11 +2055,18 @@ NV 的态度
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jeunesse-nv-logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="oWF-Tj-nWf">
-                                <rect key="frame" x="59" y="555" width="159" height="48"/>
+                                <rect key="frame" x="24" y="531" width="170" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="More info，了解更多" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="veK-Qr-BOY">
+                                <rect key="frame" x="24" y="615" width="170" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Id-2g-yEO">
-                                <rect key="frame" x="22" y="512" width="325" height="128"/>
+                                <rect key="frame" x="16" y="512" width="325" height="135"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -2068,13 +2075,6 @@ NV 的态度
                                     <action selector="ToWebsiteBottom:" destination="A1m-ZL-0Zk" eventType="touchUpInside" id="ljT-zd-jGu"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="More info，了解更多" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="veK-Qr-BOY">
-                                <rect key="frame" x="24" y="615" width="170" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -2086,10 +2086,10 @@ NV 的态度
             </objects>
             <point key="canvasLocation" x="-11405.6" y="-213.64317841079463"/>
         </scene>
-        <!--View Controller-->
+        <!--Nevo-->
         <scene sceneID="63O-D3-GFa">
             <objects>
-                <viewController id="4dP-vL-kCL" sceneMemberID="viewController">
+                <viewController id="4dP-vL-kCL" customClass="Nevo" customModule="JeunessebyAnita" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="WPD-qY-JCj"/>
                         <viewControllerLayoutGuide type="bottom" id="QyW-eK-A1Q"/>
@@ -2114,27 +2114,70 @@ NV 的态度
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nevo - 2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8qH-ZQ-10I">
-                                <rect key="frame" x="132" y="24" width="111" height="39"/>
+                                <rect key="frame" x="132" y="23" width="111" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nevoMainLogo_zh-US.png" translatesAutoresizingMaskIntoConstraints="NO" id="yuv-vt-mqx">
-                                <rect key="frame" x="66" y="106" width="243" height="58"/>
+                                <rect key="frame" x="66" y="82" width="243" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jjO-PZ-aj5">
+                                <rect key="frame" x="24" y="320" width="335" height="214"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.41656360260000003" green="0.71739971579999995" blue="0.9023584603" alpha="1" colorSpace="calibratedRGB"/>
+                                <mutableString key="text">************************
+The Smart Choice
+************************
+
+We didn’t create the caffeinated energy drink…we just perfected it. Nevo offers a fresh twist on energy in four refreshing formulas. Featuring real fruit juices, Nevo contains only 50 calories per can and no artificial flavors, colors or sweeteners. When it comes to your energy needs, it’s time to make the smart choice. It’s time to Nevo.
+
+************************
+明智之选 
+************************
+
+能量饮料更臻完美。Nevo能量饮运用四种崭新配方，为人体注入活力，採用新鲜水果製作果汁，热量仅50大卡，不含人工色素、风味或甘味剂。当提到能量的需求，该是时候作出明智的选择，该是时候Nevo了。
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nevoFamily_en-US_4406.png" translatesAutoresizingMaskIntoConstraints="NO" id="isf-OS-NA8">
-                                <rect key="frame" x="94" y="191" width="186" height="153"/>
+                                <rect key="frame" x="94" y="159" width="186" height="153"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KQP-8f-vU8">
+                                <rect key="frame" x="66" y="542" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="nevoCansSmall_en-US.png">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="More Info, 更多资讯" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eij-pg-Jzh">
+                                <rect key="frame" x="201" y="583" width="158" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KP4-nL-0TJ">
+                                <rect key="frame" x="24" y="543" width="335" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Website:" destination="4dP-vL-kCL" eventType="touchUpInside" id="g9D-sK-CQv"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="keU-U7-Tac" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-11405.5" y="671.5"/>
+            <point key="canvasLocation" x="-11405.6" y="669.71514242878561"/>
         </scene>
         <!--New Product-->
         <scene sceneID="fV5-GV-pra">
@@ -2229,26 +2272,26 @@ NV 的态度
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NEVO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FkQ-bq-ClI">
-                                <rect key="frame" x="105" y="341" width="61" height="31"/>
+                                <rect key="frame" x="105" y="357" width="61" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nevoFamily_en-US_4406.png" translatesAutoresizingMaskIntoConstraints="NO" id="EyB-EG-JM0">
-                                <rect key="frame" x="91" y="379" width="192" height="170"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XDT-nB-X7q">
-                                <rect key="frame" x="37" y="368" width="302" height="202"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7f9-fu-tDg">
+                                <rect key="frame" x="35" y="108" width="302" height="231"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="4dP-vL-kCL" kind="show" id="aOm-uB-Vet"/>
+                                    <segue destination="A1m-ZL-0Zk" kind="show" id="8Tw-zf-4Rc"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nevoFamily_en-US_4406.png" translatesAutoresizingMaskIntoConstraints="NO" id="EyB-EG-JM0">
+                                <rect key="frame" x="91" y="396" width="192" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dP1-fQ-cbn">
                                 <rect key="frame" x="296" y="20" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2260,14 +2303,14 @@ NV 的态度
                                     <action selector="English:" destination="cOt-LU-bFc" eventType="touchUpInside" id="gRf-zG-gea"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7f9-fu-tDg">
-                                <rect key="frame" x="35" y="108" width="302" height="231"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XDT-nB-X7q">
+                                <rect key="frame" x="35" y="380" width="302" height="202"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="A1m-ZL-0Zk" kind="show" id="8Tw-zf-4Rc"/>
+                                    <segue destination="4dP-vL-kCL" kind="show" id="aOm-uB-Vet"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3308,6 +3351,7 @@ NV 的态度
         <image name="luminesceFamily_en-US.png" width="1000" height="835"/>
         <image name="luminescent.jpg" width="800" height="605"/>
         <image name="m1ndPackage_en-US_4445.png" width="500" height="500"/>
+        <image name="nevoCansSmall_en-US.png" width="406" height="427"/>
         <image name="nevoFamily_en-US_4406.png" width="496" height="407"/>
         <image name="nevoMainLogo_zh-US.png" width="500" height="118"/>
         <image name="productsImage1_en-US.png" width="800" height="568"/>
@@ -3319,12 +3363,12 @@ NV 的态度
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="lHv-oH-TZo"/>
-        <segue reference="Pvc-Zk-1IY"/>
+        <segue reference="khF-pE-TrF"/>
         <segue reference="kAG-5w-Pi5"/>
+        <segue reference="Dz6-O2-bir"/>
+        <segue reference="DY5-PX-KoI"/>
+        <segue reference="IUx-Gg-gl9"/>
         <segue reference="6v7-x3-c3M"/>
         <segue reference="80G-Vj-TrI"/>
-        <segue reference="ESU-Dz-mhL"/>
-        <segue reference="IUx-Gg-gl9"/>
-        <segue reference="YSI-Jg-Zlf"/>
     </inferredMetricsTieBreakers>
 </document>
