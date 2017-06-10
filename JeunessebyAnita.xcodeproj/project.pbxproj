@@ -921,7 +921,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 7PK4W84Q3C;
 				INFOPLIST_FILE = JeunessebyAnita/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Uni-clem.JeunessebyAnita";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -941,7 +941,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 7PK4W84Q3C;
 				INFOPLIST_FILE = JeunessebyAnita/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Uni-clem.JeunessebyAnita";
 				PRODUCT_NAME = "$(TARGET_NAME)";

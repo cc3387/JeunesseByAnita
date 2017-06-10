@@ -199,7 +199,7 @@ class FirstPage:UIViewController,UIPickerViewDataSource, UIPickerViewDelegate{
         let pickerLabel = UILabel()
         pickerLabel.textColor = UIColor.red
         pickerLabel.text = pickerData[component][row]
-        pickerLabel.font = UIFont(name: pickerLabel.font.fontName, size: 14)
+        pickerLabel.font = UIFont(name: pickerLabel.font.fontName, size: 11)
         //pickerLabel.font = UIFont(name: "System Thin", size: 10) // In this use your custom font
         pickerLabel.textAlignment = NSTextAlignment.center
         return pickerLabel
